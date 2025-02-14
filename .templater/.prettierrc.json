@@ -1,0 +1,7 @@
+{
+    "arrowParens": "always",
+    "editorconfig": true,
+    "printWidth": 110,
+    "quoteProps": "consistent",
+    "singleQuote": true
+}
