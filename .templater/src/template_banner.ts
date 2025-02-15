@@ -9,6 +9,7 @@ const titlePipe = (title: string, ...acronyms: string[]): string => {
     title = title.replace(/^\d+-/, ''); // remove ##- prefix
     title = title.replace(/---|-/g, (match) => (match === '---' ? ' - ' : ' ')); // convert --- to - and - to space
     title = titleCase(title, ...acronyms); // change to title case
+    title = encode(title);
 
     return title;
 };
