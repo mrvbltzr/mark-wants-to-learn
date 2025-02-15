@@ -167,6 +167,3 @@ for (const product of productList) {
     console.log(product.getDiscount());
 }
 ```
-
----
-<div align="right">2025-02-13</div>
