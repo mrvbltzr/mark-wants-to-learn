@@ -1,0 +1,17 @@
+/.vscode
+/.obsidian/*
+/scripts
+
+# Vault Settings & Hotkeys
+!/.obsidian/app.json
+!/.obsidian/hotkeys.json
+
+# Useful Plugins
+!/.obsidian/plugins
+!/.obsidian/community-plugins.json
+
+# Preferred Theme
+/.obsidian/themes/*
+!/.obsidian/themes/
+!/.obsidian/themes/Nightfox/
+!/.obsidian/appearance.json
