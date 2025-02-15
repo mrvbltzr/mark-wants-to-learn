@@ -12,6 +12,14 @@ const vaults = [
             __URL__: 'https://www.udemy.com/course/software-engineering-101/',
         },
     },
+    {
+        dir: '../solid-principles',
+        inputs: ['src/header_template.ts', 'src/title_case.ts'],
+        replacer: {
+            __TITLE__: 'SOLID Principles: Introducing Software Architecture & Design',
+            __URL__: 'https://www.udemy.com/course/solid-design/',
+        },
+    },
 ];
 
 export default vaults.flatMap((vault) =>
