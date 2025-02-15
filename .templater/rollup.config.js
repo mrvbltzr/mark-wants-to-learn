@@ -6,7 +6,7 @@ import { nodeResolve } from '@rollup/plugin-node-resolve';
 const vaults = [
     {
         dir: '../software-engineering',
-        inputs: ['src/header_template.ts', 'src/title_case.ts'],
+        source: ['template_banner.ts', 'template_finished.ts', 'title_case.ts'],
         replacer: {
             __TITLE__: 'Software Engineering 101: Plan and Execute Better Software',
             __URL__: 'https://www.udemy.com/course/software-engineering-101/',
@@ -14,7 +14,7 @@ const vaults = [
     },
     {
         dir: '../solid-principles',
-        inputs: ['src/header_template.ts', 'src/title_case.ts'],
+        source: ['template_banner.ts', 'template_finished.ts', 'title_case.ts'],
         replacer: {
             __TITLE__: 'SOLID Principles: Introducing Software Architecture & Design',
             __URL__: 'https://www.udemy.com/course/solid-design/',
@@ -23,8 +23,8 @@ const vaults = [
 ];
 
 export default vaults.flatMap((vault) =>
-    vault.inputs.map((input) => ({
-        input,
+    vault.source.map((input) => ({
+        input: `src/${input}`,
         output: { format: 'cjs', dir: `${vault.dir}/scripts` },
         plugins: [
             commonjs(),
