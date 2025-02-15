@@ -30,7 +30,9 @@ My notes are written using [Obsidian](https://obsidian.md/) and are best viewed 
 
 <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzMwMHA1Z3huanc5NDl3eDhibXVlaWQzYTRqN3JxZTZuZXMxNjVhayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/3oKIPtArcgQmH9dBK0/giphy.gif" width="100" />
 
-In case you got a new PC or a new laptop (nice!) and wanted to clone this repo to your local machine, remember to rebuild all the scripts inside the `.templater` folder for the Templater plugin.
+In case you got a new PC or a new laptop (nice!) and wanted to clone this repo to your local machine, remember to rebuild all the scripts inside the `_resources/templater` folder for the Templater plugin.
+
+The Obsidian configs and templates are designed to be shared across different vaults. To enable this functionality after cloning this repo, simply run the `symlink.cmd` script (Windows only, run as admin. And yes, no Linux/Mac equivalent) located inside the `_resources/shared` folder.
 
 ## Contributing
 
