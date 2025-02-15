@@ -96,9 +96,9 @@ Kanban is a visual system for managing work.
 
 - **Think of it like a board with columns:**
 
-| Backlog | Analyze | Develop | Test | Release |
-| - | - | - | - | - |
-| -       | -       | -       | -    | -       |
+| <center>Backlog</center> | <center>Analyze</center> | <center>Develop</center> | <center>Test</center> | <center>Release</center> |
+| ------------------------ | ------------------------ | ------------------------ | --------------------- | ------------------------ |
+| -                        | -                        | -                        | -                     | -                        |
 
 - **Work items (tasks) are represented as cards:** These cards move across the board as work progresses.
 

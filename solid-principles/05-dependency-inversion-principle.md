@@ -41,11 +41,11 @@
 
 - Cannot be use interchangeably.
 
-| Feature     | Inversion of Control (IoC)           | Dependency Injection (DI)             |
-| ----------- | ------------------------------------ | ------------------------------------- |
-| **Concept** | General design principle             | Specific implementation technique     |
-| **Focus**   | Inverting control flow               | How dependencies are provided         |
-| **Scope**   | Broader, includes various techniques | More focused on dependency management |
+| <center>Feature</center> | <center>Inversion of Control (IoC)</center> | <center>Dependency Injection (DI)</center> |
+| ------------------------ | ------------------------------------------- | ------------------------------------------ |
+| **Concept**              | General design principle                    | Specific implementation technique          |
+| **Focus**                | Inverting control flow                      | How dependencies are provided              |
+| **Scope**                | Broader, includes various techniques        | More focused on dependency management      |
 
 ## Dependency Injection (DI)
 
