@@ -1,11 +1,12 @@
 import { titleCase } from 'title-case';
 
-export default (str: string, ...acronyms: string[]) => {
+const acronyms: string[] = ['wrspm', 'css'];
+
+export default (str: string) => {
     str = titleCase(str);
 
     acronyms.forEach((acronym) => {
-        const regex = new RegExp(`\\b${acronym}\\b`, 'gi');
-        str = str.replace(regex, acronym.toUpperCase());
+        str = str.replace(new RegExp(`\\b${acronym}\\b`, 'gi'), acronym.toUpperCase());
     });
 
     return str;

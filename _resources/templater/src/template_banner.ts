@@ -5,17 +5,17 @@ import type { Templater } from './types';
 const courseTitle = encode('__TITLE__');
 const courseTitleSnake = courseTitle.replace(/\s/g, '_').replace(/_-_/g, '_--_');
 
-const titlePipe = (title: string, ...acronyms: string[]): string => {
+const titlePipe = (title: string): string => {
     title = title.replace(/^\d+-/, ''); // remove ##- prefix
     title = title.replace(/---|-/g, (match) => (match === '---' ? ' - ' : ' ')); // convert --- to - and - to space
-    title = titleCase(title, ...acronyms); // change to title case
+    title = titleCase(title); // change to title case
     title = encode(title);
 
     return title;
 };
 
-export default async (tp: Templater, ...acronyms: string[]) => {
-    const title = titlePipe(await tp.system.prompt('Set Title', tp.file.title), ...acronyms);
+export default async (tp: Templater, acronyms: string[]) => {
+    const title = titlePipe(await tp.system.prompt('Set Title', tp.file.title));
 
     return /*HTML*/ `
 <div>
