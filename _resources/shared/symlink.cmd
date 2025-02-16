@@ -1,9 +1,9 @@
 @echo off
 
 :: Define an array of target paths
-set "target[0]=%~dp0..\..\software-engineering"
-set "target[1]=%~dp0..\..\solid-principles"
-set "target[2]=%~dp0..\..\git"
+set "target[0]=%~dp0../../software-engineering"
+set "target[1]=%~dp0../../solid-principles"
+set "target[2]=%~dp0../../git"
 
 :: ---- Thank You. I'll take it from here ----
 
@@ -49,6 +49,8 @@ for /d %%F in ("%~dp0*") do (
                 )
             )
         )
+
+        echo.
     )
 )
 
