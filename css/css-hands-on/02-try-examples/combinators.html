@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Combinators</title>
+    <style>
+        div p { color: blue; } /* Descendant: All <p> inside <div> */
+        div > p { font-weight: bold; } /* Child: Direct <p> inside <div> */
+        h1 + p { text-decoration: underline; } /* Adjacent Sibling: <p> next to <h1> */
+        h1 ~ p { font-style: italic; } /* General Sibling: All <p> after <h1> */
+    </style>
+</head>
+<body>
+    <div>
+        <p>This is a paragraph inside the div (blue, bold). <code>div p {} / div > p {}</code></p>
+        <span><p>This paragraph is inside a span inside the div (blue). <code>div p {}</code></p></span>
+        <p>This is another paragraph inside the div (blue, bold). <code>div p {} / div > p {}</code></p>
+    </div>
+
+    <h1>This is a heading</h1>
+    <p>This paragraph is next to the h1 (underlined, italic). <code>h1 + p {}</code></p>
+    <p>This is another paragraph after the h1 (italic). <code>h1 ~ p {}</code></p>
+    <ul>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+    </ul>
+    <p>This is yet another paragraph after the h1 (italic). <code>h1 ~ p {}</code></p>
+</body>
+</html>

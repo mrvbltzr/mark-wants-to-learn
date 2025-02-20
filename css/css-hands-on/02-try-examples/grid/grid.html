@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid Example</title>
+        <style>
+            .container {
+                display: grid;
+                grid-template-columns: [hd-start] repeat(4, [col-start] 25% [col-end]) [hd-end];
+                grid-template-rows: [hd-start] 50px [hd-end] repeat(3, [row-start] 50% [row-end]) [ft-start] 50px [ft-end]; /* Simplified rows for visualization */
+                border: 1px solid black; /* To see the container */
+            }
+
+            .item {
+                background-color: lightgray;
+                border: 1px solid gray;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .header {
+                grid-column: hd-start / hd-end; /* Spans all columns */
+                background-color: lightblue;
+            }
+            .footer {
+                grid-column: hd-start / hd-end; /* Spans all columns */
+                background-color: lightgreen;
+            }
+
+            .col1 {
+                grid-column: col-start 1 / col-end 1;
+            }
+            .col2 {
+                grid-column: col-start 2 / col-end 2;
+            }
+            .col3 {
+                grid-column: col-start 3 / col-end 3;
+            }
+            .col4 {
+                grid-column: col-start 4 / col-end 4;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="item header">Header</div>
+            <div class="item col1">1</div>
+            <div class="item col2">2</div>
+            <div class="item col3">3</div>
+            <div class="item col4">4</div>
+            <div class="item col1">5</div>
+            <div class="item col2">6</div>
+            <div class="item col3">7</div>
+            <div class="item col4">8</div>
+            <div class="item col1">9</div>
+            <div class="item col2">10</div>
+            <div class="item col3">11</div>
+            <div class="item col4">12</div>
+            <div class="item footer">Footer</div>
+        </div>
+    </body>
+</html>

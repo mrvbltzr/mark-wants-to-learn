@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        .block {
+            display: block;
+            background-color: lightblue;
+            width: 200px; /* Width is respected */
+            margin-bottom: 10px; /* Margin creates space below */
+        }
+
+        .inline {
+            display: inline;
+            background-color: lightcoral;
+            width: 200px; /* Width is ignored */
+        }
+
+        .inline-block {
+            display: inline-block;
+            background-color: lightgreen;
+            width: 250px; /* Width is respected */
+            margin-right: 10px; /* Margin creates space to the right */
+        }
+
+        .none {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="block">This is a block element.</div>
+    <div class="block">This is another block element.</div>
+
+    <span class="inline">This is an inline element.</span>
+    <span class="inline">This is another inline element.</span>
+
+    <div class="inline-block">This is an inline-block element.</div>
+    <div class="inline-block">This is another inline-block element.</div>
+
+    <div class="none">This element is hidden.</div>
+</body>
+</html>

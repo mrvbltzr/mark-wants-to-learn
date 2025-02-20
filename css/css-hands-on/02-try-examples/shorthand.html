@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shorthand</title>
+    <style>
+        .box {
+            /* Longhand properties */
+            /*
+            border-width: 2px;
+            border-style: solid;
+            border-color: red;
+            */
+
+            /* Shorthand border property */
+            border: 2px solid red;
+
+            /* Longhand properties */
+            /*
+            padding-top: 10px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            */
+
+            /* Shorthand padding property */
+            padding: 10px 20px; /* Top/bottom 10px, left/right 20px */
+
+            /* Or, even shorter if all padding values are the same */
+            /* padding: 10px; */
+
+            width: 200px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">This is a box with shorthand styles.</div>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cursor</title>
+        <style>
+            body {
+                font-family: sans-serif;
+            }
+
+            .container {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+                gap: 20px;
+                padding: 20px;
+            }
+
+            .example {
+                border: 1px solid #ccc;
+                padding: 15px;
+                text-align: center;
+            }
+
+            .example span {
+                display: block; /* Make the text take up the full width */
+                margin-bottom: 5px; /* Add some space between the label and example */
+            }
+
+            /* Common Cursors */
+            .default {
+                cursor: default;
+            }
+            .pointer {
+                cursor: pointer;
+            }
+            .help {
+                cursor: help;
+            }
+            .wait {
+                cursor: wait;
+            }
+            .progress {
+                cursor: progress;
+            }
+            .crosshair {
+                cursor: crosshair;
+            }
+            .text {
+                cursor: text;
+            }
+            .move {
+                cursor: move;
+            }
+            .grab {
+                cursor: grab;
+            }
+            .grabbing {
+                cursor: grabbing;
+            }
+
+            /* Directional Cursors */
+            .n-resize {
+                cursor: n-resize;
+            }
+            .s-resize {
+                cursor: s-resize;
+            }
+            .e-resize {
+                cursor: e-resize;
+            }
+            .w-resize {
+                cursor: w-resize;
+            }
+            .ne-resize {
+                cursor: ne-resize;
+            }
+            .nw-resize {
+                cursor: nw-resize;
+            }
+            .se-resize {
+                cursor: se-resize;
+            }
+            .sw-resize {
+                cursor: sw-resize;
+            }
+            .ew-resize {
+                cursor: ew-resize;
+            } /* Horizontal resize */
+            .ns-resize {
+                cursor: ns-resize;
+            } /* Vertical resize */
+
+            /* Context Menu and Alias */
+            .context-menu {
+                cursor: context-menu;
+            }
+            .alias {
+                cursor: alias;
+            }
+
+            /* No Drop and Not Allowed */
+            .no-drop {
+                cursor: no-drop;
+            }
+            .not-allowed {
+                cursor: not-allowed;
+            }
+
+            /* Zoom In/Out */
+            .zoom-in {
+                cursor: zoom-in;
+            }
+            .zoom-out {
+                cursor: zoom-out;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="example default"><span class="label">default</span></div>
+            <div class="example pointer"><span class="label">pointer</span></div>
+            <div class="example help"><span class="label">help</span></div>
+            <div class="example wait"><span class="label">wait</span></div>
+            <div class="example progress"><span class="label">progress</span></div>
+            <div class="example crosshair"><span class="label">crosshair</span></div>
+            <div class="example text"><span class="label">text</span></div>
+            <div class="example move"><span class="label">move</span></div>
+            <div class="example grab"><span class="label">grab</span></div>
+            <div class="example grabbing"><span class="label">grabbing</span></div>
+
+            <div class="example n-resize"><span class="label">n-resize</span></div>
+            <div class="example s-resize"><span class="label">s-resize</span></div>
+            <div class="example e-resize"><span class="label">e-resize</span></div>
+            <div class="example w-resize"><span class="label">w-resize</span></div>
+            <div class="example ne-resize"><span class="label">ne-resize</span></div>
+            <div class="example nw-resize"><span class="label">nw-resize</span></div>
+            <div class="example se-resize"><span class="label">se-resize</span></div>
+            <div class="example sw-resize"><span class="label">sw-resize</span></div>
+            <div class="example ew-resize"><span class="label">ew-resize</span></div>
+            <div class="example ns-resize"><span class="label">ns-resize</span></div>
+
+            <div class="example context-menu"><span class="label">context-menu</span></div>
+            <div class="example alias"><span class="label">alias</span></div>
+            <div class="example no-drop"><span class="label">no-drop</span></div>
+            <div class="example not-allowed"><span class="label">not-allowed</span></div>
+            <div class="example zoom-in"><span class="label">zoom-in</span></div>
+            <div class="example zoom-out"><span class="label">zoom-out</span></div>
+        </div>
+    </body>
+</html>

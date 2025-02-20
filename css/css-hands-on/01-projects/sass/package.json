@@ -1,0 +1,14 @@
+{
+    "type": "module",
+    "scripts": {
+        "sass:build": "sass src/main.scss styles/main.css",
+        "sass:watch": "sass src/main.scss styles/main.css --watch"
+    },
+    "devDependencies": {
+        "eslint": "^8.57.1",
+        "eslint-config-prettier": "^10.0.1",
+        "prettier": "^3.4.2",
+        "prettier-eslint": "^16.3.0",
+        "sass": "^1.85.0"
+    }
+}

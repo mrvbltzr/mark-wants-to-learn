@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Float Example</title>
+        <style>
+            .container {
+                width: 80%;
+                margin: 20px auto; /* Center the container */
+                border: 1px solid #ccc;
+                padding: 10px;
+                overflow: hidden; /* Important for containing floats */
+            }
+
+            .box {
+                width: 200px;
+                height: 150px;
+                background-color: lightblue;
+                margin: 10px;
+                border: 1px solid blue;
+            }
+
+            .left {
+                float: left;
+            }
+
+            .right {
+                float: right;
+            }
+
+            .clearfix::after {
+                /* Clearfix for containing floats */
+                content: '';
+                display: table;
+                clear: both;
+            }
+
+            .text-block {
+                margin-top: 20px; /* Add some space above the text */
+                clear: both; /* Clear any previous floats */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box left">Float Left</div>
+            <div class="box right">Float Right</div>
+            <p class="text-block">
+                This is some sample text that will wrap around the floated boxes. Notice how the text flows around the
+                elements that have been floated. This demonstrates the basic behavior of the float property.
+            </p>
+
+            <div class="box left">Another Float Left</div>
+            <p class="text-block">
+                More text. Because the container has `overflow: hidden`, this text is contained within the container
+                even though there's a float. If overflow was not there, the container would collapse.
+            </p>
+
+            <div class="clearfix"></div>
+            <p class="text-block">
+                Another text after clearfix. Clearfix forces the container to expand and contain the float.
+            </p>
+        </div>
+    </body>
+</html>
