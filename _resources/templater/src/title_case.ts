@@ -1,13 +1,13 @@
-import { titleCase } from 'title-case';
+import gemini from './gemini';
 
-const acronyms: string[] = ['wrspm', 'css'];
+/**
+ * Converts string to title case using AI.
+ */
+export default async (title: string): Promise<string> => {
+    if (!title) {
+        new window.Notice('No action performed.', 5_000);
+        return '';
+    }
 
-export default (str: string) => {
-    str = titleCase(str);
-
-    acronyms.forEach((acronym) => {
-        str = str.replace(new RegExp(`\\b${acronym}\\b`, 'gi'), acronym.toUpperCase());
-    });
-
-    return str;
+    return await gemini(`Can you convert this to title case, with acronyms propely capitalized: ${title}`);
 };

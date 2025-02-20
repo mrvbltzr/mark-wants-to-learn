@@ -5,10 +5,10 @@ import terser from '@rollup/plugin-terser';
 import json from '@rollup/plugin-json';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
 
-const userscripts = ['env.ts', 'gemini.ts', 'html_encode.ts', 'title_case.ts'];
+const userscripts = ['env', 'gemini', 'html_encode', 'title_case'];
 
 export default userscripts.map((script) => ({
-    input: `src/${script}`,
+    input: `src/${script}.ts`,
     output: { format: 'cjs', dir: '../shared/scripts' },
     plugins: [
         json(),
@@ -18,4 +18,5 @@ export default userscripts.map((script) => ({
         dotenvPlugin(),
         terser({ format: { comments: false } }),
     ],
+    external: ['obsidian'],
 }));
