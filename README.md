@@ -30,12 +30,12 @@ My notes are written using [Obsidian](https://obsidian.md/) and are best viewed 
 
 <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDNwbTRmamk4dHp1NXJvN2tkbWtrZDVneG0zMm15bXMwNHR1aTc2bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/BXjqytvu9bKzCUHdzz/giphy.gif" width="80" />
 
-| <center>⁉️</center> | <center>Topic</center>   | <center>Completion Date</center> |
-| ------------------- | ------------------------ | -------------------------------- |
-| <center>✔️</center> | Software Engineering 101 | <center>2025-01-26</center>      |
-| <center>✔️</center> | Git & GitHub             | <center>2025-02-06</center>      |
-| <center>✔️</center> | SOLID Principles         | <center>2025-02-13</center>      |
-| <center>✔️</center> | CSS                      | <center>2025-02-20</center>      |
+|                              | <center>Topic</center>   | <center>Completion Date</center>     |
+| ---------------------------- | ------------------------ | ------------------------------------ |
+| <div align="center">✔️</div> | Software Engineering 101 | <div align="center">2025-01-26</div> |
+| <div align="center">✔️</div> | Git & GitHub             | <div align="center">2025-02-06</div> |
+| <div align="center">✔️</div> | SOLID Principles         | <div align="center">2025-02-13</div> |
+| <div align="center">✔️</div> | CSS                      | <div align="center">2025-02-20</div> |
 
 ## Note to self
 
