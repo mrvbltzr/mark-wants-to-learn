@@ -14,9 +14,12 @@ const model = ai.model.split('/')[1];
  */
 export default async (prompt: string): Promise<string> => {
     const notice = new window.Notice(`Talking to ${model}. Please wait...`, 0);
-    const result = await ai.generateContent(prompt.trim());
 
-    notice.hide();
-
-    return result.response.text();
+    try {
+        return (await ai.generateContent(prompt.trim())).response.text();
+    } catch (e: unknown) {
+        return e instanceof Error ? `\`${e.message}\`\n` : '`Error\n`';
+    } finally {
+        notice.hide();
+    }
 };
