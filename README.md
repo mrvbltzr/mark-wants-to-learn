@@ -34,6 +34,7 @@ My notes are written using [Obsidian](https://obsidian.md/) and are best viewed 
 | ---------------------------- | ------------------------ | ------------------------------------ |
 | <div align="center">✔️</div> | Software Engineering 101 | <div align="center">2025-01-26</div> |
 | <div align="center">✔️</div> | Git & GitHub Bootcamp    | <div align="center">2025-02-06</div> |
+| <div align="center">✔️</div> | SOLID Principles         | <div align="center">2025-02-13</div> |
 
 ## Note to self
 
