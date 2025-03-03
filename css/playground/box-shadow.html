@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Box Shadow</title>
+        <style>
+            .container {
+                display: flex;
+                justify-content: center; /* Horizontally center */
+                align-items: center; /* Vertically center */
+                min-height: 300px; /* Ensure container has some height */
+                text-align: center;
+                font-weight: 700;
+            }
+
+            .box {
+                width: 200px;
+                height: 100px;
+                background-color: #f0f0f0; /* Light gray background */
+                margin: 20px;
+                border-radius: 10px; /* Optional: Rounded corners */
+            }
+
+            .shadow1 {
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Offset, blur, spread, color */
+            }
+
+            .shadow2 {
+                box-shadow: 0px 0px 15px 5px rgba(0, 0, 255, 0.2); /* No offset, blur, spread, color */
+            }
+
+            .shadow3 {
+                box-shadow: -5px -5px 5px rgba(255, 0, 0, 0.5); /* Negative offset */
+            }
+
+            .shadow4 {
+                box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.3); /* Inset shadow */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box shadow1">Shadow 1</div>
+            <div class="box shadow2">Shadow 2</div>
+            <div class="box shadow3">Shadow 3</div>
+            <div class="box shadow4">Inset Shadow</div>
+        </div>
+    </body>
+</html>

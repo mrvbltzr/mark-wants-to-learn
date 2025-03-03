@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Position Property</title>
+        <style>
+            body {
+                margin: 20px; /* Add some margin to the body */
+            }
+
+            .container {
+                width: 300px;
+                height: 200px;
+                border: 2px solid #ccc;
+                position: relative; /* Needed for absolute positioning within */
+                margin-bottom: 20px; /* Space between containers */
+            }
+
+            .box {
+                width: 50px;
+                height: 50px;
+                background-color: lightblue;
+                border: 1px solid blue;
+                text-align: center;
+                line-height: 50px; /* Vertically center text */
+                position: absolute; /* Needed for positioning */
+            }
+
+            /* Static (default) */
+            .static {
+                position: static;
+                top: 0;
+                left: 0;
+            }
+
+            /* Relative */
+            .relative {
+                position: relative;
+                top: 20px;
+                left: 20px;
+                background-color: lightgreen;
+            }
+
+            /* Absolute */
+            .absolute {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                background-color: lightcoral;
+            }
+
+            /* Fixed */
+            .fixed {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                background-color: rgb(204, 204, 0);
+            }
+
+            /* Sticky */
+            .sticky {
+                position: sticky;
+                top: 0; /* Sticks to the top */
+                background-color: lightpink;
+                width: 100%;
+                z-index: 1; /* Ensure it's above other content */
+            }
+
+            .content {
+                /* Example content to make the page scrollable */
+                height: 800px;
+                padding: 20px;
+                border: 1px solid #ddd;
+            }
+
+            .sticky-container {
+                height: 100px; /* Give the sticky container a height */
+                border: 1px solid #ccc;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CSS Position Property Example</h1>
+
+        <div class="sticky-container">
+            <div class="box sticky">Sticky</div>
+        </div>
+        <div class="content">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus repellat sequi ab praesentium ex iusto
+            reprehenderit facilis, sint obcaecati quae exercitationem blanditiis asperiores amet labore architecto eius?
+            Minima, a voluptates! Iure corrupti iusto, ad deserunt adipisci quam et omnis. Blanditiis, quaerat?
+            Temporibus delectus quae unde doloribus ex perspiciatis fuga fugiat alias, quisquam dolores veritatis porro
+            ratione sunt impedit inventore minus. Neque sequi nulla facilis dignissimos a placeat suscipit officia
+            explicabo nam repellendus dolores iure itaque nisi eum aliquam ex dolorem temporibus quas fugit similique
+            maiores, assumenda quaerat quis ullam. Suscipit. Deserunt, cumque autem. Sint dolorem asperiores quam
+            facilis labore inventore repellendus! Veritatis, placeat rerum quasi magni animi numquam enim repudiandae
+            praesentium odio maiores eos explicabo. Dolor labore fuga atque vitae! Corporis optio delectus possimus
+            eaque perspiciatis mollitia molestias fuga architecto reiciendis, necessitatibus aperiam, repellendus
+            eveniet accusamus rem quos exercitationem quas, ducimus dolor sequi impedit quam. Eveniet praesentium
+            dolores amet sint. Labore at consectetur maxime totam fugit asperiores, recusandae unde accusamus.
+            Laboriosam officia nisi nesciunt minima maxime, esse aspernatur vero eligendi delectus maiores excepturi.
+            Iure velit sed tenetur obcaecati optio atque. Ut nihil, animi maiores quasi nam quaerat enim consectetur
+            magnam, deleniti sapiente reprehenderit architecto veniam est totam perspiciatis similique harum! Quas
+            accusantium modi neque corrupti veniam eos quos et iusto? Consequuntur provident quas ullam eum aut,
+            aspernatur quam fugiat eaque esse omnis minus, quidem itaque ipsa! Ad incidunt possimus sit dolore eaque
+            cupiditate et, dolorum cum sed vel illum molestiae! Iusto dolorem maiores eum quae aspernatur cum
+            voluptatibus harum libero deserunt enim. Nihil, nobis? Debitis facere, iste dolor totam, eius laudantium
+            minus tenetur quod quis ex ipsa hic necessitatibus aperiam! Nesciunt nulla recusandae aliquid animi enim
+            consequuntur amet, molestiae nam, tenetur nemo, aliquam veniam tempora praesentium eaque repellat quasi
+            facilis odio voluptate omnis? Eum voluptates suscipit exercitationem, distinctio assumenda magni! Ea,
+            laudantium libero? Aut, magnam dolores mollitia necessitatibus hic ipsam veniam accusamus blanditiis placeat
+            officia doloremque quaerat obcaecati tempora natus labore. Praesentium molestiae omnis mollitia eius id at
+            accusantium obcaecati. Rem nemo porro, pariatur recusandae totam est atque dolor, amet commodi sit sequi,
+            nisi iste fugiat beatae. Doloremque accusamus iste, dolorem neque aliquam mollitia, itaque incidunt ipsum
+            sit, debitis in. Deserunt, dolorum? Magnam cupiditate perspiciatis laborum nulla tempora, culpa aspernatur
+            ipsam, quos iusto mollitia placeat. Veritatis optio ut asperiores amet veniam exercitationem nam, omnis,
+            iusto blanditiis tenetur aspernatur natus consectetur. Ad sapiente, rem velit aspernatur omnis molestias
+            repellendus repellat perspiciatis. Laborum accusantium, perferendis necessitatibus reprehenderit neque
+            itaque aliquid ea vero autem placeat quia! Eius pariatur reiciendis necessitatibus explicabo consectetur
+            iste? Et obcaecati repudiandae in ea numquam necessitatibus. Quidem odit magnam dicta consectetur eligendi a
+            non! Atque, cum inventore. Praesentium labore architecto quam possimus at repellat molestias eveniet iusto
+            ducimus repudiandae. At, eaque nihil nam dolorum dignissimos in repellat inventore hic recusandae
+            necessitatibus optio exercitationem ipsum alias laudantium odio quas quidem praesentium? Excepturi iste
+            molestias, repellendus aperiam cupiditate accusamus iusto suscipit. Quod obcaecati aperiam fugit cumque
+            necessitatibus! Distinctio illo laborum tempora optio accusantium beatae rerum possimus. Aperiam
+            exercitationem, saepe, quaerat, repudiandae similique atque doloremque temporibus itaque at totam sequi
+            neque reprehenderit! Quam, sed? Blanditiis ipsum repellendus esse expedita labore ut autem perspiciatis
+            obcaecati, voluptate commodi repudiandae officiis, eius reiciendis. Mollitia debitis, ipsum laborum eligendi
+            placeat sint. Cum qui culpa laborum rem. Aliquid provident a atque, dignissimos quod libero neque alias
+            placeat officiis quam? Ab inventore minus debitis modi esse deserunt adipisci nisi alias voluptatibus dolor,
+            voluptates ducimus veritatis minima totam doloremque! Aperiam officiis possimus provident eligendi
+            recusandae harum neque aut aliquid ad inventore quam vel, iusto quis porro assumenda, minus magnam repellat
+            nemo cupiditate amet. Suscipit voluptatem veritatis doloremque architecto iste. Exercitationem adipisci
+            nihil officiis sed hic totam saepe eos autem sit enim ipsa amet voluptas optio vel, at consequuntur ut
+            perferendis expedita id itaque molestias placeat asperiores repudiandae! Nemo, qui? Minima, nostrum enim.
+            Optio architecto incidunt enim maxime asperiores cumque, nam fuga, eum impedit repellendus accusamus odio
+            eaque unde rem dolorum ea libero, voluptates laudantium autem. Harum necessitatibus voluptates neque.
+            Dignissimos quaerat nisi voluptatibus, exercitationem quos magni, facilis libero suscipit ex nobis et ut vel
+            a laborum voluptas dolorum. Officiis laudantium eos ullam. Nemo omnis error repudiandae fugit aperiam
+            expedita! Eveniet fugit laborum blanditiis quasi! Est quidem enim temporibus hic possimus ipsa obcaecati
+            itaque in mollitia vel iusto placeat cum corporis nemo, expedita delectus iste repudiandae. Temporibus
+            commodi deleniti ipsam! Eaque explicabo rerum dolorem, maxime animi itaque sapiente exercitationem sequi
+            placeat molestiae voluptates labore, error asperiores hic libero odit non alias tenetur. Numquam quod quos
+            aliquam praesentium, exercitationem ab cupiditate. Suscipit officiis eaque at et odio ipsam aperiam illo,
+            iure in nobis voluptatem assumenda provident earum sit adipisci aliquam quis tempora similique. Esse
+            incidunt similique veniam iste illo laboriosam culpa? Aliquam ipsum reprehenderit officia possimus error
+            voluptate aspernatur cupiditate perspiciatis? Numquam et voluptas, quae enim consectetur consequatur ipsa
+            deleniti porro perspiciatis soluta eos cupiditate nostrum! Ipsum rem eius quaerat hic! Accusantium,
+            voluptatibus optio consequuntur debitis voluptas doloremque amet iure velit voluptates pariatur dolore
+            animi, quam inventore! Quisquam nihil harum dolores ab. Voluptatem eligendi praesentium nobis eaque
+            accusantium aliquid dolorem id? Quibusdam laboriosam harum nemo numquam voluptatem consequuntur, cupiditate,
+            fugit omnis non earum rem! Accusamus asperiores odit quisquam repellendus neque itaque est necessitatibus,
+            omnis ex hic mollitia exercitationem. Dolor, repellat necessitatibus? Maiores, hic fuga quidem nam molestias
+            labore iusto nisi aliquam, deserunt eum harum voluptates quibusdam eius? Totam consequatur minus voluptate,
+            sequi pariatur quia cupiditate itaque dolorum unde nobis, ipsum recusandae. Cupiditate eius similique, magni
+            soluta porro nisi quasi id? Minus quas, laudantium quos maxime asperiores facilis vitae laborum itaque ut
+            consectetur nostrum numquam nemo esse molestias enim nesciunt neque beatae? Rerum accusamus nisi, expedita
+            sint iste hic fuga laborum! Officia vero temporibus, quasi sit ad reiciendis ipsam porro distinctio culpa,
+            cumque alias aliquid quas libero iure aperiam debitis non eos! Voluptatem beatae aut impedit aspernatur
+            nostrum? Quas excepturi qui possimus facilis atque, quae nisi labore saepe nam asperiores quo laboriosam
+            pariatur sunt est, corporis vitae eos alias! Quaerat, ut eos. Consequatur voluptatibus, ipsam nesciunt ipsum
+            voluptates ut nostrum dicta id rem laborum voluptas reprehenderit quos provident minima quod sunt itaque
+            saepe accusantium illo mollitia eveniet. Sapiente cupiditate obcaecati similique doloribus. Officiis, iure
+            repudiandae atque voluptas quidem ullam temporibus enim numquam voluptatibus velit aliquam accusamus libero
+            nulla, molestiae provident in distinctio ratione tempore adipisci, laboriosam exercitationem fuga expedita
+            quia qui? Mark Roland.
+        </div>
+
+        <div class="container">
+            <div class="box static">Static</div>
+        </div>
+
+        <div class="container">
+            <div class="box relative">Relative</div>
+        </div>
+
+        <div class="container">
+            <div class="box absolute">Absolute</div>
+        </div>
+
+        <div class="box fixed">Fixed</div>
+    </body>
+</html>
