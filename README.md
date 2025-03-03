@@ -26,6 +26,14 @@ This repository is an archive (or a dump) of my learning journey, documenting my
 
 My notes are written using [Obsidian](https://obsidian.md/) and are best viewed within that application. I want to apologize in advance if you find any grammatical errors in my notes, as English is not my first language and is currently a work in progress.
 
+## What I Completed So Far...
+
+<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDNwbTRmamk4dHp1NXJvN2tkbWtrZDVneG0zMm15bXMwNHR1aTc2bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/BXjqytvu9bKzCUHdzz/giphy.gif" width="80" />
+
+|                              | <center>Topic</center>   | <center>Completion Date</center>     |
+| ---------------------------- | ------------------------ | ------------------------------------ |
+| <div align="center">✔️</div> | Software Engineering 101 | <div align="center">2025-01-26</div> |
+
 ## Note to self
 
 <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzMwMHA1Z3huanc5NDl3eDhibXVlaWQzYTRqN3JxZTZuZXMxNjVhayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/3oKIPtArcgQmH9dBK0/giphy.gif" width="100" />
