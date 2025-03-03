@@ -1,0 +1,18 @@
+scripts/
+.obsidian/*
+
+# Config Files
+!.obsidian/app.json
+!.obsidian/hotkeys.json
+!.obsidian/community-plugins.json
+!.obsidian/appearance.json
+
+# Useful Plugins
+!.obsidian/plugins
+
+# Preferred Theme
+.obsidian/themes/*
+!.obsidian/themes/
+!.obsidian/themes/Nightfox/
+
+getadmin.vbs
