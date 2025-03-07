@@ -73,5 +73,11 @@
   ],
   "editor:delete-paragraph": [],
   "editor:toggle-checklist-status": [],
-  "editor:open-link-in-new-leaf": []
+  "editor:open-link-in-new-leaf": [],
+  "editor:toggle-source": [
+    {
+      "modifiers": [],
+      "key": "F12"
+    }
+  ]
 }
