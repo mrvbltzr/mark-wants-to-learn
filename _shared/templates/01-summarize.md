@@ -1,2 +1,2 @@
-<% tp.file.cursor(0) -%>
-<% await tp.user.get_template('summarize') || '' -%>
+<% tp.file.cursor(0) %>
+<% await tp.user.get_template('summarize') -%>
