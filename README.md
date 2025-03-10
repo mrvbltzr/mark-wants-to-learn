@@ -41,7 +41,7 @@ My notes are written using [Obsidian](https://obsidian.md/) and are best viewed 
 
 <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDNwbTRmamk4dHp1NXJvN2tkbWtrZDVneG0zMm15bXMwNHR1aTc2bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/BXjqytvu9bKzCUHdzz/giphy.gif" width="120" />
 
-Just got a shiny new desktop or laptop? Awesome! If you're planning to clone this repo to your local machine, here's a quick reminder of what to do:
+Just got a shiny new desktop or laptop? Awwwwwwwesooooome! If you're planning to clone this repo to your local machine, here's a quick reminder of what to do:
 
 1. Clone the `mwtl-templater-scripts` repo inside of this folder.
 
@@ -55,7 +55,7 @@ Just got a shiny new desktop or laptop? Awesome! If you're planning to clone thi
    cd _templater && npm run build
    ```
 
-3. The configs and templates are designed to be shared across different vaults. To enable this, simply run the `symlink.cmd` script (run as admin) located inside the `_shared` folder.
+3. The config, plugins, themes, custom scripts and templates are intended to be shared across different vaults. To enable this, simply run the `symlink.cmd` script (run as admin) located inside the `_shared` folder.
 
 ## Obsidian Plugins & Themes
 
