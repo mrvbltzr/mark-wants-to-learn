@@ -187,7 +187,7 @@ body {
 
 .markdown-rendered h2, .HyperMD-header-2 {
 	padding-bottom: 0.25rem;
-	border-bottom: 5px dotted var(--hr-color);
+	border-bottom: 2px dashed var(--hr-color);
 }
 
 .markdown-rendered code {
