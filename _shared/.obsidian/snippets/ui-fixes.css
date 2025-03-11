@@ -1,14 +1,21 @@
 body {
+    --inline-title-size: var(--h3-size);
     --table-cell-vertical-alignment: middle;
-    --inline-title-size: var(--h2-size);
+    --code-border-color: color-mix(in srgb, var(--code-background), var(--color-base-100) 10%);
+    --code-radius: 0.6rem;
+    --code-border-width: 1px;
 }
 
-/* .workspace-tab-header,
+.workspace-tab-header,
 .workspace-tab-header-inner,
 .workspace-tab-container-before,
 .workspace-tab-container-after {
     transition: background-color 100ms linear;
-} */
+}
+
+.markdown-preview-section .inline-title {
+    display: none;
+}
 
 .markdown-preview-view ol > li,
 .markdown-preview-view ul > li {
@@ -26,6 +33,16 @@ body {
     width: 100%;
 }
 
+.markdown-rendered code,
+.cm-s-obsidian span.cm-inline-code {
+    border-radius: var(--radius-s);
+    border: none;
+}
+
+.markdown-source-view.mod-cm6 .cm-table-widget .table-cell-wrapper {
+    height: auto;
+}
+
 .cm-html-embed td,
 .markdown-rendered td,
 .cm-html-embed th,
@@ -36,6 +53,18 @@ body {
 
 .markdown-rendered h2,
 .HyperMD-header-2 {
-	border-bottom: 4px dotted color-mix(in srgb, var(--hr-color), white 20%);
+    border-bottom: 4px dotted color-mix(in srgb, var(--hr-color), var(--color-base-100) 20%);
     padding-bottom: calc(var(--p-spacing) / 2) !important;
+}
+
+/* Execute Plugin: add margin on code and output separator */
+code.language-output hr {
+    margin: 1em 0;
+}
+
+code.language-output .stdout::before {
+    content: 'Output:\A\A';
+    white-space: pre;
+    font-weight: bold;
+    color: var(--color-base-40);
 }
