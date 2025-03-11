@@ -10,6 +10,9 @@ scripts/
 # Useful Plugins
 !.obsidian/plugins
 
+# CSS Snippets
+!.obsidian/snippets
+
 # Preferred Theme
 .obsidian/themes/*
 !.obsidian/themes/

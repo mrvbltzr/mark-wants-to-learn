@@ -3,5 +3,8 @@
   "cssTheme": "Nightfox",
   "accentColor": "#016384",
   "nativeMenus": true,
-  "showViewHeader": true
+  "showViewHeader": true,
+  "enabledCssSnippets": [
+    "ui-fixes"
+  ]
 }
