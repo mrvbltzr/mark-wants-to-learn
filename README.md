@@ -72,6 +72,8 @@ Plugins? Themes? Already here! No install-y, just repo-y. No need to bother your
 | **[Table of Contents](https://github.com/hipstersmoothie/obsidian-plugin-toc)** | Create a table of contents for a note.                                                   | Only here for GitHub-friendly tables of contents. Otherwise, "Outline" core plugin rules.                                                 |
 | **[Templater](https://github.com/SilentVoid13/Templater)**                      | Templating language that lets you insert variables and function results into your notes. | My entire note-taking system depends on this. If it breaks, I quit.                                                                       |
 
+---
+
 | <center>Theme Name</center>                                     | <center>Description</center>                                                                  |
 | --------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 | **[Nightfox](https://github.com/markmacode/obsidian-nightfox)** | This theme is a port of the [nightfox.nvim](https://github.com/EdenEast/nightfox.nvim) theme. |
