@@ -1,8 +1,8 @@
 [
-  "editing-toolbar",
-  "obsidian-plugin-toc",
-  "templater-obsidian",
   "obsidian-editor-shortcuts",
-  "obsidian-trim-whitespace",
-  "execute-code"
+  "editing-toolbar",
+  "execute-code",
+  "obsidian-linter",
+  "obsidian-plugin-toc",
+  "templater-obsidian"
 ]
