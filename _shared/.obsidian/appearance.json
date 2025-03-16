@@ -6,5 +6,6 @@
   "showViewHeader": true,
   "enabledCssSnippets": [
     "ui-fixes"
-  ]
+  ],
+  "theme": "system"
 }
