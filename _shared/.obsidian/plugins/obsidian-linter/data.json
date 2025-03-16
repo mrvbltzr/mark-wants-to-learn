@@ -271,7 +271,7 @@
     }
   },
   "lintOnSave": true,
-  "recordLintOnSaveLogs": true,
+  "recordLintOnSaveLogs": false,
   "displayChanged": true,
   "lintOnFileChange": false,
   "displayLintOnFileChangeNotice": false,
