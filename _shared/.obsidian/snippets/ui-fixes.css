@@ -23,6 +23,13 @@ body {
     padding-bottom: 0.8rem;
 }
 
+.markdown-rendered ul ul,
+.markdown-rendered ol ul,
+.markdown-rendered ul ol,
+.markdown-rendered ol ol {
+    margin-block-start: var(--p-spacing);
+}
+
 .markdown-rendered table {
     margin-block-start: var(--size-4-2);
     margin-block-end: var(--size-4-2);
@@ -37,6 +44,10 @@ body {
 .cm-s-obsidian span.cm-inline-code {
     border-radius: var(--radius-s);
     border: none;
+}
+
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock {
+    padding-inline-end: var(--size-4-4);
 }
 
 .markdown-source-view.mod-cm6 .cm-table-widget .table-cell-wrapper {
