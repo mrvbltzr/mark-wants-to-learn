@@ -79,5 +79,17 @@
       "modifiers": [],
       "key": "F12"
     }
+  ],
+  "theme:use-dark": [
+    {
+      "modifiers": [],
+      "key": "F7"
+    }
+  ],
+  "theme:use-light": [
+    {
+      "modifiers": [],
+      "key": "F8"
+    }
   ]
 }
