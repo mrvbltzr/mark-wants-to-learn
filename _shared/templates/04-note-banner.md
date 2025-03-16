@@ -10,7 +10,7 @@ if ($noteTitle) {
 <a href="<% await tp.user.metadata('COURSE_URL') -%>">
 <img src="https://img.shields.io/badge/<% $courseTitleSnake -%>-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="<% $courseTitle -%>" />
 </a>
-<h1><% tp.user.html_encode($noteTitle).replace(/\n/, "") -%></h1>
+<h1><% tp.user.html_encode($noteTitle) -%></h1>
 <%* if ($finishedAt) { -%>
 <img src="https://img.shields.io/badge/Finished-<% $finishedAt.replace(/-/g, '--') -%>-white?labelColor=2A6041&color=B6EFD4" alt="Finished" />
 <%* } else { -%>
