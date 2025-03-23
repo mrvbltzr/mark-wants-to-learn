@@ -1,4 +1,6 @@
 <%*
+const newNoteTitle = await tp.system.prompt('Note Title:', tp.file.title, true);
+
 const finishedAt = await tp.system.prompt(`If this section is finish, set a date (YYYY-MM-DD), else set to empty.`, tp.date.now(), true);
 
 const metadata = await tp.user.metadata();
@@ -7,7 +9,7 @@ const courseTitle = tp.user.html_encode(metadata.COURSE_TITLE);
 
 const courseTitleSnake = courseTitle.replace(/\s/g, '_').replace(/_-_/g, '_--_');
 
-const noteTitle = await tp.user.title_case(tp.file.title.replace(/^\d+-/, ''));
+const noteTitle = await tp.user.title_case(newNoteTitle.replace(/^\d+-/, ''));
 -%>
 <%* if (noteTitle) { %>
 <div id="title" align="center">
