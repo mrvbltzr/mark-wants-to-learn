@@ -52,7 +52,7 @@ Just got a shiny new desktop or laptop? Awwwwwwwesooooome! If you're planning to
 2. After that, navigate to that folder then run the build command to rebuild all the scripts for the Templater plugin.
 
    ```bash
-   cd _templater && npm run build
+   cd _templater && npm install && npm run build
    ```
 
 3. The config, plugins, themes, custom scripts and templates are intended to be shared across different vaults. To enable this, simply run the `symlink.cmd` script (run as admin) located inside the `_shared` folder.
