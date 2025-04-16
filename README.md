@@ -77,8 +77,12 @@ Plugins? Themes? Already here! No install-y, just repo-y. No need to bother your
 | --------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 | **[Nightfox](https://github.com/markmacode/obsidian-nightfox)** | This theme is a port of the [nightfox.nvim](https://github.com/EdenEast/nightfox.nvim) theme. |
 
-## Contributing
+## I'll just leave it here...
 
-<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzl0cWs0MDVwOWhzbzRmaGVwb245MWc2a2Jyb25ocGNnMWl2ZXBobyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/4FSszKGHihVTNlZDJo/giphy.gif" align="left" width="200">
+I was diagnosed with spinal tuberculosis, also known as **Pott's disease**. I was unable to walk, and my legs became paralyzed.
 
-Nope.
+On January 6, 2025, I was admitted to the hospital. While I was there, I decided to start self-studying again.
+
+On March 28, 2025, I had surgery on my thoracic spine (I'm not sure if it's called spinal fusion), which was successful. Because of this, I had to pause my self-study (I was taking a JavaScript refresher course before the surgery).
+
+Now, I have titanium in my spine. As I write this note, I can stand with a walker and can walk to some extent. My focus for now is on recovery. I will try to continue what was left on my refresher course. 😊
