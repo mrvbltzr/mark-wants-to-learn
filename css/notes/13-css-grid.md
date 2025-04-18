@@ -1,63 +1,12 @@
 
-<div>
-<div id="icon" align="center">
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZseHp6MDVnZTRheGNndnJ4eXlmYTI0ZHhidnY0b2R4MnU1enRlbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JWy2zBSXQ55W5Jh00D/giphy.gif" width="120"/>
-</div>
 <div id="title" align="center">
 <a href="https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/">
 <img src="https://img.shields.io/badge/CSS_--_The_Complete_Guide_2024_(incl._Flexbox,_Grid_&amp;_Sass)-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="CSS - The Complete Guide 2024 (incl. Flexbox, Grid &amp; Sass)" />
 </a>
-<h1>CSS Grid</h1>
-</div>
-</div>
-<div align="center">
+<h1>CSS-Grid</h1>
 <img src="https://img.shields.io/badge/Finished-2025--02--13-white?labelColor=2A6041&color=B6EFD4" alt="Finished" />
-<br />
-<br />
+<br /><br />
 </div>
-
-## What's in my notes?
-
-- [What is CSS Grid?](#what-is-css-grid)
-- [Defining Column & Rows](#defining-column--rows)
-	- [`grid-template-columns`](#grid-template-columns)
-	- [`grid-template-rows`](#grid-template-rows)
-- [Positioning Child Elements in a Grid](#positioning-child-elements-in-a-grid)
-	- [`grid-column-start`](#grid-column-start)
-	- [`grid-column-end`](#grid-column-end)
-	- [`grid-row-start`](#grid-row-start)
-	- [`grid-row-end`](#grid-row-end)
-- [Auto Fill](#auto-fill)
-- [Repeat and Min-Max Functions](#repeat-and-min-max-functions)
-	- [`repeat()`](#repeat)
-	- [`minmax()`](#minmax)
-- [Span](#span)
-- [Named Lines](#named-lines)
-- [Column & Row Shorthand](#column--row-shorthand)
-	- [`grid-column`](#grid-column)
-	- [`grid-row`](#grid-row)
-	- [`grid-area`](#grid-area)
-- [Gaps](#gaps)
-	- [`column-gap`](#column-gap)
-	- [`row-gap`](#row-gap)
-	- [`gap`](#gap)
-- [Automatically Generated Grid Areas](#automatically-generated-grid-areas)
-- [Fit Content](#fit-content)
-- [Justify Self](#justify-self)
-- [Grid Auto](#grid-auto)
-	- [`grid-auto-rows`](#grid-auto-rows)
-	- [`grid-auto-columns`](#grid-auto-columns)
-	- [`grid-auto-flow`](#grid-auto-flow)
-- [Implicit and Explicit Grid](#implicit-and-explicit-grid)
-	- [Explicit Grid](#explicit-grid)
-	- [Implicit Grid](#implicit-grid)
-- [Auto Fill](#auto-fill)
-- [Auto Fit](#auto-fit)
-- [Dense](#dense)
-- [Grid vs. Flexbox](#grid-vs-flexbox)
-	- [Grid](#grid)
-	- [Flexbox](#flexbox)
-- [Links](#links)
 
 ## What is CSS Grid?
 

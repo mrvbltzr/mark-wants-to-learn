@@ -1,43 +1,12 @@
 
-<div>
-<div id="icon" align="center">
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZseHp6MDVnZTRheGNndnJ4eXlmYTI0ZHhidnY0b2R4MnU1enRlbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JWy2zBSXQ55W5Jh00D/giphy.gif" width="120"/>
-</div>
 <div id="title" align="center">
 <a href="https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/">
 <img src="https://img.shields.io/badge/CSS_--_The_Complete_Guide_2024_(incl._Flexbox,_Grid_&amp;_Sass)-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="CSS - The Complete Guide 2024 (incl. Flexbox, Grid &amp; Sass)" />
 </a>
 <h1>Flexbox</h1>
-</div>
-</div>
-<div align="center">
 <img src="https://img.shields.io/badge/Finished-2025--02--10-white?labelColor=2A6041&color=B6EFD4" alt="Finished" />
-<br />
-<br />
+<br /><br />
 </div>
-
-## What's in my notes?
-
-- [Flexbox (Flexible Box Layout)](#flexbox-flexible-box-layout)
-	- [Flex Container (Parent)](#flex-container-parent)
-	- [Flex Items (Children)](#flex-items-children)
-- [Flex Container Display](#flex-container-display)
-	- [`display: flex`](#display-flex)
-	- [`display: inline-flex`](#display-inline-flex)
-- [Flex Wrap](#flex-wrap)
-- [Flex Direction](#flex-direction)
-- [Main vs. Cross Axis](#main-vs-cross-axis)
-	- [Main Axis](#main-axis)
-	- [Cross Axis](#cross-axis)
-	- [Visualization](#visualization)
-- [Align Items](#align-items)
-- [Justify Content](#justify-content)
-- [Align Content](#align-content)
-- [Flex Order](#flex-order)
-- [Align Self](#align-self)
-- [Flex Grow](#flex-grow)
-- [Flex Shrink](#flex-shrink)
-- [Flex Basis](#flex-basis)
 
 ## Flexbox (Flexible Box Layout)
 
@@ -203,9 +172,9 @@ Perpendicular to the main axis. Used for alignment _across_ the main axis.
 | `flex-start`           | <center>✔️</center>       | Flex items are aligned to the start of the main axis. For row, this is the left edge. For column, it's the top.                                                                 |
 | `flex-end`             |                           | Flex items are aligned to the end of the main axis. For row, this is the right edge. For column, it's the bottom.                                                               |
 | `center`               |                           | Flex items are aligned to the center of the main axis.                                                                                                                          |
-| `space-between`        |                           | Flex items are distributed evenly along the main axis, with the first item aligned to the start and the last item aligned to the end. Space is distributed *between* the items. |
-| `space-around`         |                           | Flex items are distributed evenly along the main axis, with space *around* each item. There will be space at both the beginning and the end of the line.                        |
-| `space-evenly`         |                           | Flex items are distributed evenly along the main axis, with *equal* space around them, including the space at the start and the end.                                            |
+| `space-between`        |                           | Flex items are distributed evenly along the main axis, with the first item aligned to the start and the last item aligned to the end. Space is distributed _between_ the items. |
+| `space-around`         |                           | Flex items are distributed evenly along the main axis, with space _around_ each item. There will be space at both the beginning and the end of the line.                        |
+| `space-evenly`         |                           | Flex items are distributed evenly along the main axis, with _equal_ space around them, including the space at the start and the end.                                            |
 
 ```css
 .container {
@@ -233,9 +202,9 @@ Perpendicular to the main axis. Used for alignment _across_ the main axis.
 | `flex-start`           |                           | The lines of flex items are aligned to the start of the cross axis.                                                                                                           |
 | `flex-end`             |                           | The lines of flex items are aligned to the end of the cross axis.                                                                                                             |
 | `center`               |                           | The lines of flex items are aligned to the center of the cross axis.                                                                                                          |
-| `space-between`        |                           | The lines of flex items are distributed evenly along the cross axis, with the first line at the start and the last line at the end. Space is distributed *between* the lines. |
-| `space-around`         |                           | The lines of flex items are distributed evenly along the cross axis, with space *around* each line. There will be space at both the beginning and the end of the container.   |
-| `space-evenly`         |                           | The lines of flex items are distributed evenly along the cross axis, with *equal* space around them, including the space at the start and the end.                            |
+| `space-between`        |                           | The lines of flex items are distributed evenly along the cross axis, with the first line at the start and the last line at the end. Space is distributed _between_ the lines. |
+| `space-around`         |                           | The lines of flex items are distributed evenly along the cross axis, with space _around_ each line. There will be space at both the beginning and the end of the container.   |
+| `space-evenly`         |                           | The lines of flex items are distributed evenly along the cross axis, with _equal_ space around them, including the space at the start and the end.                            |
 
 ```css
 .container {
@@ -325,7 +294,7 @@ Perpendicular to the main axis. Used for alignment _across_ the main axis.
 
 - Only kicks in when the container is full.
 
-- **Shrink Factor:** `flex-shrink` * `flex-basis` (or width) = how much an item shrinks. *Bigger number = more shrinking.*
+- **Shrink Factor:** `flex-shrink` * `flex-basis` (or width) = how much an item shrinks. _Bigger number = more shrinking._
 
 - **Think of it as:** balloons in a box. If the box gets smaller, the balloons shrink.
 

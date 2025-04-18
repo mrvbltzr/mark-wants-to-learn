@@ -1,40 +1,12 @@
 
-<div>
-<div id="icon" align="center">
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZseHp6MDVnZTRheGNndnJ4eXlmYTI0ZHhidnY0b2R4MnU1enRlbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JWy2zBSXQ55W5Jh00D/giphy.gif" width="120"/>
-</div>
 <div id="title" align="center">
 <a href="https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/">
 <img src="https://img.shields.io/badge/CSS_--_The_Complete_Guide_2024_(incl._Flexbox,_Grid_&amp;_Sass)-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="CSS - The Complete Guide 2024 (incl. Flexbox, Grid &amp; Sass)" />
 </a>
 <h1>CSS Basics</h1>
-</div>
-</div>
-<div align="center">
 <img src="https://img.shields.io/badge/Finished-2025--02--06-white?labelColor=2A6041&color=B6EFD4" alt="Finished" />
-<br />
-<br />
+<br /><br />
 </div>
-
-## What's in my notes?
-
-- [Overview](#overview)
-- [Inline Styles](#inline-styles)
-- [Style Tag](#style-tag)
-- [External Stylesheet](#external-stylesheet)
-- [Types of Selector](#types-of-selector)
-	- [Elements](#elements)
-	- [Classes](#classes)
-	- [IDs](#ids)
-	- [Attributes](#attributes)
-	- [Universal](#universal)
-- [Cascading Style & Specificity](#cascading-style--specificity)
-- [Inheritance](#inheritance)
-- [Combinators](#combinators)
-	- [Descendant Selector](#descendant-selector)
-	- [Child Selector](#child-selector)
-	- [Adjacent Sibling Selector](#adjacent-sibling-selector)
-	- [General Sibling Selector](#general-sibling-selector)
 
 ## Overview
 
@@ -155,9 +127,9 @@ There are four categories which define the specificity level of a selector:
 
 2. IDs - `#navbar`
 
-3. Classes, pseudo-classes, attribute selectors - `.test, :hover, [href]`
+3. Classes, pseudo-classes, attribute selectors - `.test,:hover, [href]`
 
-4. Elements and pseudo-elements - `h1, ::before`
+4. Elements and pseudo-elements - `h1,::before`
 
 ❗ Universal selectors are ignored.
 
@@ -196,6 +168,7 @@ p {
 - More control over which elements get styled.
 
 **There are four main types:**
+
 ### Descendant Selector
 
 - **(space)**: Selects children _and_ nested elements.

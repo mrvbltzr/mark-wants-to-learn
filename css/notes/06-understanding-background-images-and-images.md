@@ -1,49 +1,12 @@
 
-<div>
-<div id="icon" align="center">
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZseHp6MDVnZTRheGNndnJ4eXlmYTI0ZHhidnY0b2R4MnU1enRlbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JWy2zBSXQ55W5Jh00D/giphy.gif" width="120"/>
-</div>
 <div id="title" align="center">
 <a href="https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/">
 <img src="https://img.shields.io/badge/CSS_--_The_Complete_Guide_2024_(incl._Flexbox,_Grid_&amp;_Sass)-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="CSS - The Complete Guide 2024 (incl. Flexbox, Grid &amp; Sass)" />
 </a>
 <h1>Understanding Background Images and Images</h1>
-</div>
-</div>
-<div align="center">
 <img src="https://img.shields.io/badge/Finished-2025--02--08-white?labelColor=2A6041&color=B6EFD4" alt="Finished" />
-<br />
-<br />
+<br /><br />
 </div>
-
-## What's in my notes?
-
-- [Background Property](#background-property)
-	- [`background-color`](#background-color)
-	- [`background-image`](#background-image)
-	- [`background-repeat`](#background-repeat)
-	- [`background-position`](#background-position)
-	- [`background-size`](#background-size)
-	- [`background-origin`](#background-origin)
-	- [`background-clip`](#background-clip)
-	- [`background-attachment`](#background-attachment)
-	- [Shorthand](#shorthand)
-- [Linear Gradient](#linear-gradient)
-- [Radial Gradient](#radial-gradient)
-- [Stacking Multiple Background](#stacking-multiple-background)
-- [Filters](#filters)
-	- [`blur(radius)`](#blurradius)
-	- [`brightness(amount)`](#brightnessamount)
-	- [`contrast(amount)`](#contrastamount)
-	- [`grayscale(amount)`](#grayscaleamount)
-	- [`invert(amount)`](#invertamount)
-	- [`opacity(amount)`](#opacityamount)
-	- [`saturate(amount)`](#saturateamount)
-	- [`sepia(amount)`](#sepiaamount)
-	- [`drop-shadow(x-offset y-offset blur-radius color)`](#drop-shadowx-offset-y-offset-blur-radius-color)
-	- [`hue-rotate(angle)`](#hue-rotateangle)
-	- [Combining Filters](#combining-filters)
-- [SVG (Scalable Vector Graphics)](#svg-scalable-vector-graphics)
 
 ## Background Property
 
@@ -107,7 +70,7 @@ background-size: cover;
 
 ### `background-origin`
 
-Determines where the background image's starting point is. *Where does the image begin to be drawn from?*
+Determines where the background image's starting point is. _Where does the image begin to be drawn from?_
 
 | <center>Value</center> | <center>Default?</center> | <center>Description</center>                                                                                       |
 | ---------------------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------ |
@@ -121,7 +84,7 @@ background-origin: border-box;
 
 ### `background-clip`
 
-Determines how far the background (image and color) extends _within_ the element's box. *Where does the background get cut off?*
+Determines how far the background (image and color) extends _within_ the element's box. _Where does the background get cut off?_
 
 | <center>Value</center> | <center>Default?</center> | <center>Description</center>                                                                                                      |
 | ---------------------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |

@@ -1,29 +1,12 @@
 
-<div>
-<div id="icon" align="center">
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZseHp6MDVnZTRheGNndnJ4eXlmYTI0ZHhidnY0b2R4MnU1enRlbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JWy2zBSXQ55W5Jh00D/giphy.gif" width="120"/>
-</div>
 <div id="title" align="center">
 <a href="https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/">
 <img src="https://img.shields.io/badge/CSS_--_The_Complete_Guide_2024_(incl._Flexbox,_Grid_&amp;_Sass)-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="CSS - The Complete Guide 2024 (incl. Flexbox, Grid &amp; Sass)" />
 </a>
 <h1>More on Selectors and CSS Features</h1>
+🎉 <img src="https://img.shields.io/badge/Finished-2025--02--07-white?labelColor=2A6041&color=B6EFD4" alt="Finished" /> 🎂
+<br /><br />
 </div>
-</div>
-<div align="center">
-<img src="https://img.shields.io/badge/Finished-2025--02--07-white?labelColor=2A6041&color=B6EFD4" alt="Finished" />
-<br />
-<br />
-</div>
-
-## What's in my notes?
-
-- [Multiple Class](#multiple-class)
-- [Class vs ID](#class-vs-id)
-	- [Class](#class)
-	- [ID](#id)
-- [Important](#important)
-- [Selecting The Opposite](#selecting-the-opposite)
 
 ## Multiple Class
 
@@ -61,11 +44,11 @@
 
 ## Important
 
-* `!important` in CSS beats all other rules, no matter how specific they are.
+- `!important` in CSS beats all other rules, no matter how specific they are.
 
-* Using `!important` too much messes up CSS, making it hard to fix and understand.
+- Using `!important` too much messes up CSS, making it hard to fix and understand.
 
-* Better to be specific with CSS selectors instead of always using `!important`.
+- Better to be specific with CSS selectors instead of always using `!important`.
 
 ```css
 p {
@@ -75,7 +58,7 @@ p {
 
 ## Selecting The Opposite
 
-* `not()` in CSS lets you pick stuff that doesn't fit a certain description.
+- `not()` in CSS lets you pick stuff that doesn't fit a certain description.
 
 ```css
 /* Style all elements that are NOT paragraphs */

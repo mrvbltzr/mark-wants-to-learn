@@ -1,42 +1,12 @@
 
-<div>
-<div id="icon" align="center">
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZseHp6MDVnZTRheGNndnJ4eXlmYTI0ZHhidnY0b2R4MnU1enRlbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JWy2zBSXQ55W5Jh00D/giphy.gif" width="120"/>
-</div>
 <div id="title" align="center">
 <a href="https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/">
 <img src="https://img.shields.io/badge/CSS_--_The_Complete_Guide_2024_(incl._Flexbox,_Grid_&amp;_Sass)-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="CSS - The Complete Guide 2024 (incl. Flexbox, Grid &amp; Sass)" />
 </a>
 <h1>Responsive Website</h1>
-</div>
-</div>
-<div align="center">
 <img src="https://img.shields.io/badge/Finished-2025--02--08-white?labelColor=2A6041&color=B6EFD4" alt="Finished" />
-<br />
-<br />
+<br /><br />
 </div>
-
-## What's in my notes?
-
-- [Hardware vs Software Pixels](#hardware-vs-software-pixels)
-	- [Hardware Pixels](#hardware-pixels)
-	- [Software Pixels](#software-pixels)
-	- [Why the difference?](#why-the-difference)
-	- [Scaling](#scaling)
-- [Viewport Metatag vs. Media Queries](#viewport-metatag-vs-media-queries)
-	- [HTML Viewport Metatag](#html-viewport-metatag)
-	- [CSS Media Queries](#css-media-queries)
-- [Mobile-first](#mobile-first)
-- [Media Queries](#media-queries)
-- [Media Query Parameters](#media-query-parameters)
-	- [Media Type](#media-type)
-	- [Media Features](#media-features)
-- [Logical Operators](#logical-operators)
-	- [`and`](#and)
-	- [comma (`or`)](#comma-or)
-	- [`not`](#not)
-	- [`only`](#only)
-	- [Combination](#combination)
 
 ## Hardware vs Software Pixels
 
@@ -149,11 +119,11 @@ These are the conditions that must be met for the styles to be applied. They des
 
 ## Logical Operators
 
-* `@media` queries use logical operators.
+- `@media` queries use logical operators.
 
-* They help control when styles are applied.
+- They help control when styles are applied.
 
-* You can combine conditions for complex rules.
+- You can combine conditions for complex rules.
 
 ### `and`
 

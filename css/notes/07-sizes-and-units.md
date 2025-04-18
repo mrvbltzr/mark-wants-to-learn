@@ -1,39 +1,12 @@
 
-<div>
-<div id="icon" align="center">
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZseHp6MDVnZTRheGNndnJ4eXlmYTI0ZHhidnY0b2R4MnU1enRlbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JWy2zBSXQ55W5Jh00D/giphy.gif" width="120"/>
-</div>
 <div id="title" align="center">
 <a href="https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/">
 <img src="https://img.shields.io/badge/CSS_--_The_Complete_Guide_2024_(incl._Flexbox,_Grid_&amp;_Sass)-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="CSS - The Complete Guide 2024 (incl. Flexbox, Grid &amp; Sass)" />
 </a>
 <h1>Sizes and Units</h1>
-</div>
-</div>
-<div align="center">
 <img src="https://img.shields.io/badge/Finished-2025--02--08-white?labelColor=2A6041&color=B6EFD4" alt="Finished" />
-<br />
-<br />
+<br /><br />
 </div>
-
-## What's in my notes?
-
-- [CSS Units](#css-units)
-	- [Why do we need them?](#why-do-we-need-them)
-	- [Which properties can we use the units?](#which-properties-can-we-use-the-units)
-- [Types of Units](#types-of-units)
-	- [Absolute Units](#absolute-units)
-	- [Relative Units](#relative-units)
-- [Rules To Remember](#rules-to-remember)
-- [Minimum and Maximum Width/Height](#minimum-and-maximum-widthheight)
-	- [`min-width` / `min-height`](#min-width--min-height)
-	- [`max-width` / `max-height`](#max-width--max-height)
-- [em vs. rem](#em-vs-rem)
-	- [Relative to Parent (`em`)](#relative-to-parent-em)
-	- [Relative to Root (`rem`)](#relative-to-root-rem)
-- [Viewport Units](#viewport-units)
-- [Recommended Unit Per Property](#recommended-unit-per-property)
-- [Using `auto` To Center Elements](#using-auto-to-center-elements)
 
 ## CSS Units
 
@@ -90,7 +63,7 @@ A `fixed` element is like a sticker you put on the window. It stays stuck there,
 
 If you say the sticker's size should be `50%`, it means it will take up 50% of the _window's_ size, not the page's size. So, even if the coloring book page is huge, the sticker only cares about how big the window is.
 
-2. An element with an `absolute` position and percentage unit uses the nearest positioned ancestor (not `position: static`) as its containing block.
+1. An element with an `absolute` position and percentage unit uses the nearest positioned ancestor (not `position: static`) as its containing block.
 
 Imagine you have a sticker (the absolutely positioned element) and you want to stick it on a wall. If the wall is plain (like `position: static`), the sticker just floats anywhere. But if you put a picture frame on the wall (a positioned ancestor), the sticker sticks _inside_ the frame. The frame becomes the sticker's "home." The sticker's size (using percentages) will be based on the size of the frame, not the whole wall.
 

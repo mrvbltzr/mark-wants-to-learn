@@ -1,43 +1,24 @@
 
-<div>
-<div id="icon" align="center">
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZseHp6MDVnZTRheGNndnJ4eXlmYTI0ZHhidnY0b2R4MnU1enRlbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JWy2zBSXQ55W5Jh00D/giphy.gif" width="120"/>
-</div>
 <div id="title" align="center">
 <a href="https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/">
 <img src="https://img.shields.io/badge/CSS_--_The_Complete_Guide_2024_(incl._Flexbox,_Grid_&amp;_Sass)-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="CSS - The Complete Guide 2024 (incl. Flexbox, Grid &amp; Sass)" />
 </a>
-<h1>Writing Future-Proof CSS Code
-</h1>
-</div>
-</div>
-<div align="center">
+<h1>Writing Future-Proof CSS Code</h1>
 <img src="https://img.shields.io/badge/Finished-2025--02--19-white?labelColor=2A6041&color=B6EFD4" alt="Finished" />
-<br />
-<br />
+<br /><br />
 </div>
-
-## What's in my notes?
-
-- [CSS Variables](#css-variables)
-- [Vendor Prefix](#vendor-prefix)
-- [Support Query](#support-query)
-- [Polyfills](#polyfills)
-- [Eliminating Cross-Browser Inconsistencies](#eliminating-cross-browser-inconsistencies)
-- [How to Name CSS Classes?](#how-to-name-css-classes)
-- [Vanilla CSS vs Frameworks](#vanilla-css-vs-frameworks)
 
 ## CSS Variables
 
-* Reusable values in CSS – like programming variables.
+- Reusable values in CSS – like programming variables.
 
-* Changing the variable's value updates *everywhere* it's used. Saves time & effort!
+- Changing the variable's value updates _everywhere_ it's used. Saves time & effort!
 
 - Must be declared inside the `:root`.
 
-* **Declaration:** `--variable-name: value;` (e.g., `--main-color: blue;`)
+- **Declaration:** `--variable-name: value;` (e.g., `--main-color: blue;`)
 
-* **Usage:** Use `var(--variable-name, <fallback_value>)` where you need the value.
+- **Usage:** Use `var(--variable-name, <fallback_value>)` where you need the value.
 
 ```css
 :root {
@@ -97,13 +78,13 @@ button:hover {
 
 ## Vendor Prefix
 
-* **CSS vendor prefixes:** Browser's way to test new CSS features before they're official. Like a beta version.
+- **CSS vendor prefixes:** Browser's way to test new CSS features before they're official. Like a beta version.
 
-* **Why prefixes?** Let's devs use new stuff early & give feedback to browser makers. Makes improvement easier.
+- **Why prefixes?** Let's devs use new stuff early & give feedback to browser makers. Makes improvement easier.
 
-* **Prefixes get dropped:** Once a feature is standard (official), no more prefix needed.
+- **Prefixes get dropped:** Once a feature is standard (official), no more prefix needed.
 
-* **Analogy: New dish at a restaurant** A "Spicy Surprise Noodle" marked "(Experimental)" is like a prefixed CSS property. They might change it or remove it later. If it's good, it becomes a regular menu item (standard CSS).
+- **Analogy: New dish at a restaurant** A "Spicy Surprise Noodle" marked "(Experimental)" is like a prefixed CSS property. They might change it or remove it later. If it's good, it becomes a regular menu item (standard CSS).
 
 | <center>Prefix</center> | <center>Description</center>                                                            | <center>Browser</center>        |
 | ----------------------- | --------------------------------------------------------------------------------------- | ------------------------------- |
@@ -122,11 +103,11 @@ button:hover {
 
 ## Support Query
 
-* Conditional styling based on browser capabilities. Basically, check if the browser can handle a specific CSS feature *before* applying styles.
+- Conditional styling based on browser capabilities. Basically, check if the browser can handle a specific CSS feature _before_ applying styles.
 
-* Like asking the browser: "Can you do this?" If yes, use these styles; if no, use different/default styles.
+- Like asking the browser: "Can you do this?" If yes, use these styles; if no, use different/default styles.
 
-* **Example:** Vegan butter cake analogy. Check if browser supports vegan butter (new CSS feature). If yes, use vegan recipe (styles inside `@supports`). If no, use regular butter recipe (styles outside `@supports` or in a separate rule).
+- **Example:** Vegan butter cake analogy. Check if browser supports vegan butter (new CSS feature). If yes, use vegan recipe (styles inside `@supports`). If no, use regular butter recipe (styles outside `@supports` or in a separate rule).
 
 ```css
 /* Default styles (like the regular butter recipe) */
@@ -181,57 +162,57 @@ button:hover {
 
 ## Polyfills
 
-* JavaScript code that lets old browsers use new CSS features.
+- JavaScript code that lets old browsers use new CSS features.
 
-* Acts like a translator - converts new CSS into a format older browsers can handle.
+- Acts like a translator - converts new CSS into a format older browsers can handle.
 
-* Allows using modern CSS in older browsers (fills the gaps in browser support).
+- Allows using modern CSS in older browsers (fills the gaps in browser support).
 
 ## Eliminating Cross-Browser Inconsistencies
 
-* Web dev is hard because browsers differ. Need to support many.
+- Web dev is hard because browsers differ. Need to support many.
 
-* Problem: Browser inconsistencies – default styles (font size, family, margins, padding, box-sizing) vary widely. This isn't *always* bad, but can lead to inconsistent webpage looks.
+- Problem: Browser inconsistencies – default styles (font size, family, margins, padding, box-sizing) vary widely. This isn't _always_ bad, but can lead to inconsistent webpage looks.
 
-    * Solution: Reset libraries (like `normalize.css`). These are CSS files added early in HTML to overwrite default browser styles. Example: setting `box-sizing: border-box` for all elements. Can also do this manually (e.g., using `* { box-sizing: border-box; }` in your CSS).
+    - Solution: Reset libraries (like `normalize.css`). These are CSS files added early in HTML to overwrite default browser styles. Example: setting `box-sizing: border-box` for all elements. Can also do this manually (e.g., using `* { box-sizing: border-box; }` in your CSS).
 
-    * Trade-off: Reset libraries add to page size (download time). Might be better to only reset *necessary* styles (like `box-sizing`) instead of everything a library resets – saves on download size. Only reset things your project actually uses. Avoid unnecessary downloads.
+    - Trade-off: Reset libraries add to page size (download time). Might be better to only reset _necessary_ styles (like `box-sizing`) instead of everything a library resets – saves on download size. Only reset things your project actually uses. Avoid unnecessary downloads.
 
 ## How to Name CSS Classes?
 
-* **Avoid cross-browser issues:** Focus on consistent class naming.
+- **Avoid cross-browser issues:** Focus on consistent class naming.
 
-* **Class selectors are key:** Reusable styles; descriptive names improve CSS readability.
+- **Class selectors are key:** Reusable styles; descriptive names improve CSS readability.
 
-* **Kebab case is crucial:** Use lowercase letters & hyphens (e.g., `my-class-name`). CSS is case-insensitive; snake case (`my_class_name`) causes problems.
+- **Kebab case is crucial:** Use lowercase letters & hyphens (e.g., `my-class-name`). CSS is case-insensitive; snake case (`my_class_name`) causes problems.
 
-* **Name by feature, not style:** `page-title` is good; `title-blue` is bad (color might change).
+- **Name by feature, not style:** `page-title` is good; `title-blue` is bad (color might change).
 
-* **BEM (Block Element Modifier):** A naming convention for large projects to prevent class name conflicts.
+- **BEM (Block Element Modifier):** A naming convention for large projects to prevent class name conflicts.
 
-    * **Structure:** `.block__element--modifier`
-    * **Example:** `.menu__item--big` (menu is the block, item is the element, big is the modifier).
-    * **Another Example:** `.button--success` (button is the block, no specific element, success is the modifier).
-    * Even though modifiers seem to violate the "name by feature, not style" rule, the entire class name still describes the feature.
+    - **Structure:** `.block__element--modifier`
+    - **Example:** `.menu__item--big` (menu is the block, item is the element, big is the modifier).
+    - **Another Example:** `.button--success` (button is the block, no specific element, success is the modifier).
+    - Even though modifiers seem to violate the "name by feature, not style" rule, the entire class name still describes the feature.
 
-* **BEM in practice:** Improves code readability and reduces naming collisions. It might look complex at first, but helps in large projects. Example from source code: `.main-header`, `.toggle-button__bars`, `.brand`, `.main-nav__item--call-to-action`
+- **BEM in practice:** Improves code readability and reduces naming collisions. It might look complex at first, but helps in large projects. Example from source code: `.main-header`, `.toggle-button__bars`, `.brand`, `.main-nav__item--call-to-action`
 
 ## Vanilla CSS vs Frameworks
 
-* **Vanilla CSS:**
+- **Vanilla CSS:**
 
-    * **Pros:** Full control, minimal code, easy to understand, highly optimized potential.
+    - **Pros:** Full control, minimal code, easy to understand, highly optimized potential.
 
-    * **Cons:** Time-consuming, high responsibility for browser compatibility and code quality, requires CSS expertise.
+    - **Cons:** Time-consuming, high responsibility for browser compatibility and code quality, requires CSS expertise.
 
-* **Component Frameworks (e.g., Bootstrap):**
+- **Component Frameworks (e.g., Bootstrap):**
 
-    * **Pros:** Fast development, pre-built components, generally follows best practices, requires less CSS expertise.
+    - **Pros:** Fast development, pre-built components, generally follows best practices, requires less CSS expertise.
 
-    * **Cons:** Limited control over styling, potential for unused code (bloat), websites may look similar, requires understanding of framework's structure for customization.
+    - **Cons:** Limited control over styling, potential for unused code (bloat), websites may look similar, requires understanding of framework's structure for customization.
 
-* **Utility Frameworks (e.g., Tailwind CSS):**
+- **Utility Frameworks (e.g., Tailwind CSS):**
 
-    * **Pros:** Faster development than vanilla CSS, built-in utility classes, follows best practices, more control than component frameworks, less likely to result in visually identical websites.
+    - **Pros:** Faster development than vanilla CSS, built-in utility classes, follows best practices, more control than component frameworks, less likely to result in visually identical websites.
 
-    * **Cons:** Requires more CSS knowledge than component frameworks, still potential for unused code, doesn't provide pre-built components, requires more coding than component frameworks.
+    - **Cons:** Requires more CSS knowledge than component frameworks, still potential for unused code, doesn't provide pre-built components, requires more coding than component frameworks.

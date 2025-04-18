@@ -1,40 +1,12 @@
 
-<div>
-<div id="icon" align="center">
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZseHp6MDVnZTRheGNndnJ4eXlmYTI0ZHhidnY0b2R4MnU1enRlbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JWy2zBSXQ55W5Jh00D/giphy.gif" width="120"/>
-</div>
 <div id="title" align="center">
 <a href="https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/">
 <img src="https://img.shields.io/badge/CSS_--_The_Complete_Guide_2024_(incl._Flexbox,_Grid_&amp;_Sass)-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="CSS - The Complete Guide 2024 (incl. Flexbox, Grid &amp; Sass)" />
 </a>
-<h1>Working with Text and Fonts</h1>
-</div>
-</div>
-<div align="center">
+<h1>Working With Text and Fonts</h1>
 <img src="https://img.shields.io/badge/Finished-2025--02--09-white?labelColor=2A6041&color=B6EFD4" alt="Finished" />
-<br />
-<br />
+<br /><br />
 </div>
-
-## What's in my notes?
-
-- [Generic & Font Families](#generic--font-families)
-	- [Generic Families](#generic-families)
-	- [Font Families](#font-families)
-- [Import](#import)
-- [Font Faces](#font-faces)
-- [Font Formats](#font-formats)
-- [Letter Spacing](#letter-spacing)
-	- [Consideration](#consideration)
-- [White Space](#white-space)
-- [Line Height](#line-height)
-- [Text Decoration](#text-decoration)
-	- [Individual Properties](#individual-properties)
-- [Text Shadow](#text-shadow)
-- [Font Shorthand](#font-shorthand)
-	- [Consideration](#consideration)
-	- [Drawbacks](#drawbacks)
-- [Font Display](#font-display)
 
 ## Generic & Font Families
 
@@ -47,7 +19,7 @@
 | <center>Family</center> | <center>Example</center> | <center>Description</center>                                             |
 | ----------------------- | ------------------------ | ------------------------------------------------------------------------ |
 | `serif`                 | Times New Roman          | Fonts with small decorative strokes (serifs) at the ends of the letters. |
-| `sans-serif`            | Arial, Helvetica         | Fonts *without* serifs.                                                  |
+| `sans-serif`            | Arial, Helvetica         | Fonts _without_ serifs.                                                  |
 | `monospace`             | Courier New              | Fonts where all characters have the same width. Good for code.           |
 | `cursive`               | Brush Script, Mistral    | Fonts that resemble handwriting.                                         |
 | `fantasy`               | Papyrus                  | Decorative or playful fonts. Use sparingly!                              |

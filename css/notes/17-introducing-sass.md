@@ -1,65 +1,36 @@
 
-<div>
-<div id="icon" align="center">
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZseHp6MDVnZTRheGNndnJ4eXlmYTI0ZHhidnY0b2R4MnU1enRlbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JWy2zBSXQ55W5Jh00D/giphy.gif" width="120"/>
-</div>
 <div id="title" align="center">
 <a href="https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/">
 <img src="https://img.shields.io/badge/CSS_--_The_Complete_Guide_2024_(incl._Flexbox,_Grid_&amp;_Sass)-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="CSS - The Complete Guide 2024 (incl. Flexbox, Grid &amp; Sass)" />
 </a>
-<h1>Introducing Sass
-</h1>
-</div>
-</div>
-<div align="center">
+<h1>Introducing Sass</h1>
 <img src="https://img.shields.io/badge/Finished-2025--02--20-white?labelColor=2A6041&color=B6EFD4" alt="Finished" />
-<br />
-<br />
+<br /><br />
 </div>
-
-## What's in my notes?
-
-- [Overview](#overview)
-- [Nesting](#nesting)
-	- [Selectors](#selectors)
-	- [Properties](#properties)
-- [Variables](#variables)
-- [Lists & Maps](#lists--maps)
-	- [Lists](#lists)
-	- [Maps](#maps)
-- [Built-In Functions](#built-in-functions)
-- [Arithmetic](#arithmetic)
-- [Import & Partial](#import--partial)
-- [Media Queries](#media-queries)
-- [Inheritance](#inheritance)
-- [Mixins](#mixins)
-	- [`@content`](#content)
-- [Ampersand (&) Operator](#ampersand--operator)
-- [Links](#links)
 
 ## Overview
 
-* Sass (Syntactically Awesome Style Sheets) and SCSS are basically the same, just slightly different syntax. Both are preprocessors, not run directly in the browser.
+- Sass (Syntactically Awesome Style Sheets) and SCSS are basically the same, just slightly different syntax. Both are preprocessors, not run directly in the browser.
 
-* Sass extends CSS; it doesn't replace it.
+- Sass extends CSS; it doesn't replace it.
 
-* **Purpose:** Makes CSS easier to write and maintain. Helps avoid huge, messy CSS files by providing features like nesting and reusable code snippets. It's a development tool, not for production.
+- **Purpose:** Makes CSS easier to write and maintain. Helps avoid huge, messy CSS files by providing features like nesting and reusable code snippets. It's a development tool, not for production.
 
-* **How it works:** You write Sass/SCSS code, then a tool compiles it into regular CSS for the browser.
+- **How it works:** You write Sass/SCSS code, then a tool compiles it into regular CSS for the browser.
 
-* **Key Sass Features:**
+- **Key Sass Features:**
 
-    * Nesting CSS rules (for shorter code)
-    * Inheritance from other rules (less repetition)
-    * Helper functions (e.g., adjusting colors)
-    * Mixins (reusable code blocks)
-    * Partials (splitting code into multiple files)
-    * Variables (for reusable values like hex codes)
-    * Conditions and loops
+    - Nesting CSS rules (for shorter code)
+    - Inheritance from other rules (less repetition)
+    - Helper functions (e.g., adjusting colors)
+    - Mixins (reusable code blocks)
+    - Partials (splitting code into multiple files)
+    - Variables (for reusable values like hex codes)
+    - Conditions and loops
 
 ## Nesting
 
-* Makes CSS cleaner, easier to read & maintain.
+- Makes CSS cleaner, easier to read & maintain.
 
 ### Selectors
 
@@ -101,7 +72,7 @@
 
 ### Properties
 
-* Reduces repeated CSS rules for related properties (especially helpful for layouts like flexbox).
+- Reduces repeated CSS rules for related properties (especially helpful for layouts like flexbox).
 
 ```scss
 .container {
@@ -131,11 +102,11 @@
 
 ## Variables
 
-* Store & reuse info (colors, fonts, etc.)
+- Store & reuse info (colors, fonts, etc.)
 
-* Like programming variables
+- Like programming variables
 
-* Makes CSS organized, easy to update, consistent
+- Makes CSS organized, easy to update, consistent
 
 ```scss
 // Defining variables
@@ -157,13 +128,13 @@ body {
 
 ### Lists
 
-* Group multiple values (like arrays).
+- Group multiple values (like arrays).
 
-* Good for looping (iteration).
+- Good for looping (iteration).
 
-* Store related info together.
+- Store related info together.
 
-* Pass many arguments to functions at once.
+- Pass many arguments to functions at once.
 
 ```scss
 $colors: (red, green, blue);
@@ -171,11 +142,11 @@ $colors: (red, green, blue);
 
 ### Maps
 
-* Like dictionaries/associative arrays (data structure)
+- Like dictionaries/associative arrays (data structure)
 
-* `Key: Value` (e.g., Dish Name: Price)
+- `Key: Value` (e.g., Dish Name: Price)
 
-* Easy way to look up values using keys (like a menu)
+- Easy way to look up values using keys (like a menu)
 
 ```scss
 $menu: (
@@ -192,29 +163,29 @@ $sinigang-price: map-get($menu, "Sinigang"); // $sinigang-price will be 180
 
 ## Built-In Functions
 
-* Familiar CSS functions (like `rgb`) and new ones (e.g., `red` to extract a color component) exist.
+- Familiar CSS functions (like `rgb`) and new ones (e.g., `red` to extract a color component) exist.
 
-* These are very useful! Example: Creating lighter shades of a base color.
+- These are very useful! Example: Creating lighter shades of a base color.
 
-* **Problem:** Manually adjusting light purple shades is tedious if the base color changes. Better to dynamically derive lighter shades.
+- **Problem:** Manually adjusting light purple shades is tedious if the base color changes. Better to dynamically derive lighter shades.
 
-    * **Solution:** Use the `lighten()` function. It takes a color and a percentage (0-100%).
+    - **Solution:** Use the `lighten()` function. It takes a color and a percentage (0-100%).
 
-    * **Example**: `lighten(map-get($colors, main), 70%)` lightens the `main` color (from a map) by 70%.
+    - **Example**: `lighten(map-get($colors, main), 70%)` lightens the `main` color (from a map) by 70%.
 
-    * **Fine-tuning:** Experimenting with the percentage (70% was too dark, 80% too light; 72% looked best).
+    - **Fine-tuning:** Experimenting with the percentage (70% was too dark, 80% too light; 72% looked best).
 
-    * **Advantage:** Now, changing the `main` color automatically updates all derived lighter shades. (e.g., changing `main` to black results in an adjusted gray background).
+    - **Advantage:** Now, changing the `main` color automatically updates all derived lighter shades. (e.g., changing `main` to black results in an adjusted gray background).
 
 ## Arithmetic
 
-* Sass lets you do math directly in your CSS. Useful for lengths, colors, etc.
+- Sass lets you do math directly in your CSS. Useful for lengths, colors, etc.
 
-* **Basic Ops:** `+ - * /` (just like regular math)
+- **Basic Ops:** `+ - * /` (just like regular math)
 
-* **Example:** `$width: 100px + 20px;` (adds 100px and 20px)
+- **Example:** `$width: 100px + 20px;` (adds 100px and 20px)
 
-* Order of operations matters (PEMDAS applies). Use parentheses `()` to control it. Example: `(10px + 20px) * 2`
+- Order of operations matters (PEMDAS applies). Use parentheses `()` to control it. Example: `(10px + 20px) * 2`
 
 - Mixing units can sometimes lead to unexpected results, or errors, if the units are not compatible.
 
@@ -230,11 +201,11 @@ $combined-length: $length1 + $length2; // 30px
 
 ## Import & Partial
 
-* Smaller, manageable Sass files; think modular coding. File names start with an underscore (e.g., `_variables.scss`). They aren't compiled into separate CSS files.
+- Smaller, manageable Sass files; think modular coding. File names start with an underscore (e.g., `_variables.scss`). They aren't compiled into separate CSS files.
 
-* **How to use them?** Import them into a main Sass file (like a master file) using `@use` (preferred) or `@import` (older method). `@use` creates namespaces to avoid naming conflicts.
+- **How to use them?** Import them into a main Sass file (like a master file) using `@use` (preferred) or `@import` (older method). `@use` creates namespaces to avoid naming conflicts.
 
-* **Why use them?** Better organization (easier to read & update); code reusability (e.g., one `_variables.scss` for all colors); easier maintenance (find stuff quickly); better team collaboration (less overlap/conflict).
+- **Why use them?** Better organization (easier to read & update); code reusability (e.g., one `_variables.scss` for all colors); easier maintenance (find stuff quickly); better team collaboration (less overlap/conflict).
 
 ```scss
 @import '_variables.scss';
@@ -243,11 +214,11 @@ $combined-length: $length1 + $length2; // 30px
 
 ## Media Queries
 
-* Instead of separate media queries, we can *nest* them within the CSS rules they affect. This means moving the media query code *inside* the CSS for the element it styles.
+- Instead of separate media queries, we can _nest_ them within the CSS rules they affect. This means moving the media query code _inside_ the CSS for the element it styles.
 
-* Keeps the media query visually close to the element it modifies, improving readability. It still compiles to valid, separate media queries in the final CSS. It's optional; the old way works perfectly fine.
+- Keeps the media query visually close to the element it modifies, improving readability. It still compiles to valid, separate media queries in the final CSS. It's optional; the old way works perfectly fine.
 
-* Nesting doesn't change the output CSS or the website's appearance; it just improves code organization for developers. It's a stylistic choice, not a requirement.
+- Nesting doesn't change the output CSS or the website's appearance; it just improves code organization for developers. It's a stylistic choice, not a requirement.
 
 ```scss
 html {
@@ -273,11 +244,11 @@ html {
 
 ## Inheritance
 
-* `@extend`: Shares CSS styles between selectors.
+- `@extend`: Shares CSS styles between selectors.
 
-* Basically one selector inherits styles from another.
+- Basically one selector inherits styles from another.
 
-* Goal: Re-use code, less repetition.
+- Goal: Re-use code, less repetition.
 
 ```scss
 .sass-section {
@@ -300,18 +271,18 @@ html {
 
 ## Mixins
 
-* Reusable blocks of CSS code – like functions in programming.
+- Reusable blocks of CSS code – like functions in programming.
 
-* **Key benefits:**
+- **Key benefits:**
 
-    * Avoid repeating CSS (saves time & space).
-    * Makes CSS easier to update (change one place, changes everywhere).
-    * Keeps stylesheets organized (better readability & maintainability).
+    - Avoid repeating CSS (saves time & space).
+    - Makes CSS easier to update (change one place, changes everywhere).
+    - Keeps stylesheets organized (better readability & maintainability).
 
-* **How they work:**
+- **How they work:**
 
-    * Encapsulate CSS rules (group them together).
-    * Can accept arguments (customize output).
+    - Encapsulate CSS rules (group them together).
+    - Can accept arguments (customize output).
 
 ```scss
 @mixin display-flex(/* we can accept parameters here */) {
@@ -329,9 +300,9 @@ html {
 
 ### `@content`
 
-* `@content:` Lets you add custom CSS *inside* a mixin.
+- `@content:` Lets you add custom CSS _inside_ a mixin.
 
-* Acts like a placeholder for extra styles.
+- Acts like a placeholder for extra styles.
 
 ```scss
 @mixin media-min-width($width) {
@@ -350,7 +321,7 @@ html {
 
 ## Ampersand (&) Operator
 
-* Use it with `:hover`, `::before`, etc. Targets element states/parts.
+- Use it with `:hover`, `::before`, etc. Targets element states/parts.
 
 ```scss
 .documentation-link {

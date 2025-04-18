@@ -11,7 +11,7 @@
 </div>
 </div>
 <div align="center">
-<img src="https://img.shields.io/badge/Status-Completed-white?color=35FF69" alt="Completed Badge" />
+<img src="https://img.shields.io/badge/Status-Completed-white?color=52B788" alt="Completed Badge" />
 <img src="https://img.shields.io/badge/Date-2025--02--20-white?color=3066BE" alt="Date" />
 <br />
 <br />
@@ -19,7 +19,7 @@
 
 This repository contains notes and hands-on projects during my learning journey about CSS.
 
-The notes were written in [Obsidian](https://obsidian.md/) and are best viewed there.
+> The notes were written in [Obsidian](https://obsidian.md/) and are best viewed there.
 
 ## Disclaimer
 

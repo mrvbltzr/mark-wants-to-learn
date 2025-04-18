@@ -1,43 +1,20 @@
 
-<div>
-<div id="icon" align="center">
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZseHp6MDVnZTRheGNndnJ4eXlmYTI0ZHhidnY0b2R4MnU1enRlbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JWy2zBSXQ55W5Jh00D/giphy.gif" width="120"/>
-</div>
 <div id="title" align="center">
 <a href="https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/">
 <img src="https://img.shields.io/badge/CSS_--_The_Complete_Guide_2024_(incl._Flexbox,_Grid_&amp;_Sass)-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="CSS - The Complete Guide 2024 (incl. Flexbox, Grid &amp; Sass)" />
 </a>
 <h1>Diving Deeper Into CSS</h1>
+🎉 <img src="https://img.shields.io/badge/Finished-2025--02--07-white?labelColor=2A6041&color=B6EFD4" alt="Finished" /> 🎂
+<br /><br />
 </div>
-</div>
-<div align="center">
-<img src="https://img.shields.io/badge/Finished-2025--02--07-white?labelColor=2A6041&color=B6EFD4" alt="Finished" />
-<br />
-<br />
-</div>
-
-## What's in my notes?
-
-- [CSS Box Model](#css-box-model)
-- [Margin Collapsing](#margin-collapsing)
-- [Shorthand Properties](#shorthand-properties)
-- [Height & Width](#height--width)
-- [Box Sizing](#box-sizing)
-- [Display](#display)
-- [`display: none` vs. `visibility: hidden`](#display-none-vs-visibility-hidden)
-- [Text Decoration](#text-decoration)
-- [Vertical Align](#vertical-align)
-- [Pseudo-classes](#pseudo-classes)
-- [Pseudo-elements](#pseudo-elements)
-- [Rule Grouping](#rule-grouping)
 
 ## CSS Box Model
 
-* Each HTML element is like a box.
+- Each HTML element is like a box.
 
-* This box takes up space on the webpage.
+- This box takes up space on the webpage.
 
-* The CSS box model describes how much space.
+- The CSS box model describes how much space.
 
 **The box has different layers:**
 
@@ -152,7 +129,7 @@ margin: 10px; /* All margins 10px */
 | <center>Display Value</center> | <center>Description</center>                                                                                                                        | <center>Analogy</center>                                                 | <center>Examples</center>        |
 | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | -------------------------------- |
 | `block`                        | The element takes up the full width available and forces a line break after it.                                                                     | Brick. Stacks vertically.                                                | `<div>`, `<p>`, `<h1>` to `<h6>` |
-| `inline`                       | The element only takes up as much width as its content requires and does *not* force a line break.                                                  | Letters in a word. Flow side by side.                                    | `<span>`, `<a>`, `<img>`         |
+| `inline`                       | The element only takes up as much width as its content requires and does _not_ force a line break.                                                  | Letters in a word. Flow side by side.                                    | `<span>`, `<a>`, `<img>`         |
 | `inline-block`                 | A combination of `inline` and `block`. The element flows like an `inline` element, but you can set its `width` and `height` like a `block` element. | Small sticky note. Sits next to other notes but can have a defined size. |                                  |
 | `none`                         | The element is completely removed from the page layout. It's not visible, and it doesn't take up any space.                                         | Hiding an element completely.                                            |                                  |
 | `flex`                         | Enables flexbox layout.                                                                                                                             |                                                                          |                                  |
@@ -167,7 +144,7 @@ Both `display: none` and `visibility: hidden` make an element disappear from the
 | <center>Property</center> | <center>Description</center>                                                                                                        |
 | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | `display: none;`          | Completely removes the element from the document flow. It takes up no space, and other elements flow around as if it weren't there. |
-| `visibility: hidden;`     | Makes the element invisible, but it *still* occupies space in the document flow.                                                    |
+| `visibility: hidden;`     | Makes the element invisible, but it _still_ occupies space in the document flow.                                                    |
 
 You can't see it, but other elements respect its dimensions and position. Think of it as making the element transparent—you can't see it, but it's still there, blocking things.  
 
@@ -250,19 +227,19 @@ Here are some common examples:
 
 | <center>Pseudo-element</center> | <center>Description</center>                                                            |
 | ------------------------------- | --------------------------------------------------------------------------------------- |
-| `::before`                      | Creates a pseudo-element that is inserted *before* the content of the selected element. |
-| `::after`                       | Creates a pseudo-element that is inserted *after* the content of the selected element.  |
+| `::before`                      | Creates a pseudo-element that is inserted _before_ the content of the selected element. |
+| `::after`                       | Creates a pseudo-element that is inserted _after_ the content of the selected element.  |
 | `::first-letter`                | Styles the first letter of the text content of an element.                              |
 | `::first-line`                  | Styles the first line of the text content of an element.                                |
 | `::selection`                   | Styles the portion of text that the user has selected (highlighted).                    |
 
 ## Rule Grouping
 
-* Rule grouping in CSS lets you style many selectors at the same time.
+- Rule grouping in CSS lets you style many selectors at the same time.
 
-* It makes your CSS shorter and easier to read.
+- It makes your CSS shorter and easier to read.
 
-* Basically, it's like putting together rules that have the same stuff in them.
+- Basically, it's like putting together rules that have the same stuff in them.
 
 ```css
 h1, h2, p {
