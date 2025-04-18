@@ -1,28 +1,12 @@
 
-<div>
-<div id="icon" align="center">
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZseHp6MDVnZTRheGNndnJ4eXlmYTI0ZHhidnY0b2R4MnU1enRlbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JWy2zBSXQ55W5Jh00D/giphy.gif" width="120"/>
-</div>
 <div id="title" align="center">
 <a href="https://www.udemy.com/course/git-and-github-bootcamp/">
 <img src="https://img.shields.io/badge/The_Git_&amp;_GitHub_Bootcamp-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="The Git &amp; GitHub Bootcamp" />
 </a>
 <h1>Git Collaboration Workflows</h1>
-</div>
-</div>
-
-<div align="center">
 <img src="https://img.shields.io/badge/Finished-2025--02--05-white?labelColor=2A6041&color=B6EFD4" alt="Finished" />
-<br />
-<br />
+<br /><br />
 </div>
-
-## What's in my notes?
-
-- [Pitfalls of a Centralized Workflow](#pitfalls-of-a-centralized-workflow)
-- [Feature Branches](#feature-branches)
-- [Pull Request](#pull-request)
-- [Forking](#forking)
 
 ## Pitfalls of a Centralized Workflow
 
@@ -35,7 +19,7 @@
 
 ## Feature Branches
 
-*Don't work on main branch!*
+_Don't work on main branch!_
 
 Rather than working directly on master/main, all new development should be done on separate branches.
 

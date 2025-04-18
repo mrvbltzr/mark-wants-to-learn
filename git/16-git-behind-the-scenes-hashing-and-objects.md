@@ -1,36 +1,12 @@
 
-<div>
-<div id="icon" align="center">
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZseHp6MDVnZTRheGNndnJ4eXlmYTI0ZHhidnY0b2R4MnU1enRlbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JWy2zBSXQ55W5Jh00D/giphy.gif" width="120"/>
-</div>
 <div id="title" align="center">
 <a href="https://www.udemy.com/course/git-and-github-bootcamp/">
 <img src="https://img.shields.io/badge/The_Git_&amp;_GitHub_Bootcamp-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="The Git &amp; GitHub Bootcamp" />
 </a>
 <h1>Git Behind the Scenes: Hashing and Objects</h1>
-</div>
-</div>
-
-<div align="center">
 <img src="https://img.shields.io/badge/Finished-2025--02--06-white?labelColor=2A6041&color=B6EFD4" alt="Finished" />
-<br />
-<br />
+<br /><br />
 </div>
-
-## What's in my notes?
-
-- [Config](#config)
-- [Refs](#refs)
-- [HEAD](#head)
-- [Objects](#objects)
-- [SHA-1](#sha-1)
-- [Git Database](#git-database)
-- [Hashing](#hashing)
-- [Retrieving Data](#retrieving-data)
-- [Git Objects](#git-objects)
-	- [blob](#blob)
-	- [tree](#tree)
-	- [commits](#commits)
 
 ## Config
 
@@ -108,7 +84,7 @@ There are 4 types of objects:
 
 ### blob
 
-- A **"blob" (Binary Large Object)** is one of the fundamental object types. It represents the *content* of a file. Think of it as a container holding the raw data of your file, like a snapshot of the file's bytes at a specific moment.
+- A **"blob" (Binary Large Object)** is one of the fundamental object types. It represents the _content_ of a file. Think of it as a container holding the raw data of your file, like a snapshot of the file's bytes at a specific moment.
 
 ### tree
 

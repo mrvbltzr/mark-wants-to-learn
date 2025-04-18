@@ -1,30 +1,12 @@
 
-<div>
-<div id="icon" align="center">
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZseHp6MDVnZTRheGNndnJ4eXlmYTI0ZHhidnY0b2R4MnU1enRlbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JWy2zBSXQ55W5Jh00D/giphy.gif" width="120"/>
-</div>
 <div id="title" align="center">
 <a href="https://www.udemy.com/course/git-and-github-bootcamp/">
 <img src="https://img.shields.io/badge/The_Git_&amp;_GitHub_Bootcamp-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="The Git &amp; GitHub Bootcamp" />
 </a>
 <h1>Commits in Detail and Related Topics</h1>
-</div>
-</div>
-
-<div align="center">
 <img src="https://img.shields.io/badge/Finished-2025--01--26-white?labelColor=2A6041&color=B6EFD4" alt="Finished" />
-<br />
-<br />
+<br /><br />
 </div>
-
-## What's in my notes?
-
-- [Atomic Commits](#atomic-commits)
-- [Past or Preset Tense?](#past-or-preset-tense)
-- [More Log Options](#more-log-options)
-- [Amending Commits](#amending-commits)
-- [Ignoring Files](#ignoring-files)
-- [Links](#links)
 
 ## Atomic Commits
 
@@ -58,7 +40,7 @@ Though the Git docs suggest using present-tense imperative messages, many develo
 
 There are useful flags for `git log`. Check the [documentation](https://git-scm.com/docs/git-log) for more info.
 
-- `--oneline` : This is a shorthand for `--pretty=oneline --abbrev-commit` used together.
+- `--oneline`: This is a shorthand for `--pretty=oneline --abbrev-commit` used together.
 
 ## Amending Commits
 
@@ -86,7 +68,7 @@ This is useful for files you know you **NEVER** want to commit, including:
 Create a file called `.gitignore` in the root of a repository. Inside the file, we can write patterns to
 tell Git which files & folders to ignore:
 
-- `.env` will ignore files named .env
+- `.env` will ignore files named.env
 - `folderName/` will ignore an entire directory
 - `*.log` will ignore any files with the `.log` extension
 

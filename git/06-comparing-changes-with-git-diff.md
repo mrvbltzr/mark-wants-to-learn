@@ -1,27 +1,12 @@
 
-<div>
-<div id="icon" align="center">
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZseHp6MDVnZTRheGNndnJ4eXlmYTI0ZHhidnY0b2R4MnU1enRlbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JWy2zBSXQ55W5Jh00D/giphy.gif" width="120"/>
-</div>
 <div id="title" align="center">
 <a href="https://www.udemy.com/course/git-and-github-bootcamp/">
 <img src="https://img.shields.io/badge/The_Git_&amp;_GitHub_Bootcamp-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="The Git &amp; GitHub Bootcamp" />
 </a>
-<h1>Comparing Changes with Git Diff</h1>
-</div>
-</div>
-
-<div align="center">
+<h1>Comparing Changes With Git Diff</h1>
 <img src="https://img.shields.io/badge/Finished-2025--02--01-white?labelColor=2A6041&color=B6EFD4" alt="Finished" />
-<br />
-<br />
+<br /><br />
 </div>
-
-## What's in my notes?
-
-- [Overview](#overview)
-- [Reading Diffs](#reading-diffs)
-- [Different Use of `git diff`](#different-use-of-git-diff)
 
 ## Overview
 
@@ -65,6 +50,7 @@ index a1b2c3d..e4f5g6h 100644
 In the example:
 
 - "Goodbye!" was removed.
+
 - "Goodbye, world!" and "Have a nice day!" were added.
 
 ### Different Use of `git diff`

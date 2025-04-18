@@ -1,32 +1,12 @@
 
-<div>
-<div id="icon" align="center">
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZseHp6MDVnZTRheGNndnJ4eXlmYTI0ZHhidnY0b2R4MnU1enRlbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JWy2zBSXQ55W5Jh00D/giphy.gif" width="120"/>
-</div>
 <div id="title" align="center">
 <a href="https://www.udemy.com/course/git-and-github-bootcamp/">
 <img src="https://img.shields.io/badge/The_Git_&amp;_GitHub_Bootcamp-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="The Git &amp; GitHub Bootcamp" />
 </a>
 <h1>The Ins and Outs of Stashing</h1>
-</div>
-</div>
-
-<div align="center">
 <img src="https://img.shields.io/badge/Finished-2025--02--01-white?labelColor=2A6041&color=B6EFD4" alt="Finished" />
-<br />
-<br />
+<br /><br />
 </div>
-
-## What's in my notes?
-
-- [Overview](#overview)
-- [Usage](#usage)
-	- [`git stash save` (or just `git stash`)](#git-stash-save-or-just-git-stash)
-	- [`git stash pop`](#git-stash-pop)
-	- [`git stash apply`](#git-stash-apply)
-	- [`git stash list`](#git-stash-list)
-	- [`git stash drop`](#git-stash-drop)
-	- [`git stash clear`](#git-stash-clear)
 
 ## Overview
 
@@ -54,7 +34,7 @@ Imagine you're working on a feature, but suddenly need to switch to a different 
 
 ### `git stash apply`
 
-- It similar to `git stash pop`, but with a key difference: it applies the stashed changes back to your working directory *without* removing the stash from the stash list. This means that after using `git stash apply`, the stashed changes are still saved, allowing you to apply them again later if needed.
+- It similar to `git stash pop`, but with a key difference: it applies the stashed changes back to your working directory _without_ removing the stash from the stash list. This means that after using `git stash apply`, the stashed changes are still saved, allowing you to apply them again later if needed.
 
 - This is useful when you want to temporarily put aside some changes but might need to refer back to them or apply them to another branch.
 
@@ -76,7 +56,7 @@ Imagine you're working on a feature, but suddenly need to switch to a different 
 
 ### `git stash clear`
 
-- Removes *all* stashed entries from your stash list.
+- Removes _all_ stashed entries from your stash list.
 
 - It's like clearing your entire temporary shelf at once.
 

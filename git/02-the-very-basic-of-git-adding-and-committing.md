@@ -1,33 +1,12 @@
 
-<div>
-<div id="icon" align="center">
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZseHp6MDVnZTRheGNndnJ4eXlmYTI0ZHhidnY0b2R4MnU1enRlbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JWy2zBSXQ55W5Jh00D/giphy.gif" width="120"/>
-</div>
 <div id="title" align="center">
 <a href="https://www.udemy.com/course/git-and-github-bootcamp/">
 <img src="https://img.shields.io/badge/The_Git_&amp;_GitHub_Bootcamp-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="The Git &amp; GitHub Bootcamp" />
 </a>
 <h1>The Very Basic of Git: Adding &amp; Committing</h1>
-</div>
-</div>
-
-<div align="center">
 <img src="https://img.shields.io/badge/Finished-2025--01--26-white?labelColor=2A6041&color=B6EFD4" alt="Finished" />
-<br />
-<br />
+<br /><br />
 </div>
-
-## What's in my notes?
-
-- [Repository](#repository)
-- [Initializing and Checking Repo](#initializing-and-checking-repo)
-	- [`git init`](#git-init)
-	- [`git status`](#git-status)
-- [The `.git` Folder](#the-git-folder)
-- [Adding and Committing Files](#adding-and-committing-files)
-	- [`git add`](#git-add)
-	- [`git commit`](#git-commit)
-- [The `git log` Command](#the-git-log-command)
 
 ## Repository
 
