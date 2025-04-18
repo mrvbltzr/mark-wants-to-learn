@@ -18,7 +18,7 @@ const noteTitle = await tp.user.title_case(newNoteTitle.replace(/^\d+-/, ''));
 </a>
 <h1><% tp.user.html_encode(noteTitle) -%></h1>
 <%* if (finishedAt) { -%>
-<img src="https://img.shields.io/badge/Finished-<% finishedAt.replace(/-/g, '--') -%>-white?labelColor=2A6041&color=B6EFD4" alt="Finished" />
+<% finishedAt.includes('-02-07') ? '🎉 ' : '' -%><img src="https://img.shields.io/badge/Finished-<% finishedAt.replace(/-/g, '--') -%>-white?labelColor=2A6041&color=B6EFD4" alt="Finished" /><% finishedAt.includes('-02-07') ? ' 🎂' : '' %>
 <%* } else { -%>
 <img src="https://img.shields.io/badge/Status-In_Progress-white?labelColor=383D3B&color=6290C8" alt="Status" />
 <%* } -%>
