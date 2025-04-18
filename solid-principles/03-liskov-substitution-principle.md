@@ -1,31 +1,15 @@
 
-<div>
-<div id="icon" align="center">
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZseHp6MDVnZTRheGNndnJ4eXlmYTI0ZHhidnY0b2R4MnU1enRlbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JWy2zBSXQ55W5Jh00D/giphy.gif" width="120"/>
-</div>
+
 <div id="title" align="center">
 <a href="https://www.udemy.com/course/solid-design/">
-<img src="https://img.shields.io/badge/SOLID Principles: Introducing Software Architecture & Design-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="SOLID Principles: Introducing Software Architecture & Design" />
+<img src="https://img.shields.io/badge/SOLID_Principles:_Introducing_Software_Architecture_&amp;_Design-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="SOLID Principles: Introducing Software Architecture &amp; Design" />
 </a>
 <h1>Liskov Substitution Principle</h1>
-</div>
-</div>
-<div align="center">
 <img src="https://img.shields.io/badge/Finished-2025--02--13-white?labelColor=2A6041&color=B6EFD4" alt="Finished" />
-<br />
-<br />
+<br /><br />
 </div>
-
-## What's in my notes?
-
-- [Overview](#overview)
-- [Examples](#examples)
-	- [Break The Hierarchy](#break-the-hierarchy)
-	- ["Tell, Don't Ask"](#tell-dont-ask)
 
 ## Overview
-
-- L in SOLID = Liskov Substitution Principle (LSP)
 
 - Objects should be replaceable with their subtypes without affecting the correctness of the program.
 
@@ -33,7 +17,7 @@
 
 ## Examples
 
-#### Break The Hierarchy
+### Break The Hierarchy
 
 If `Bird` has a `fly()` method, and `Penguin` inherits from `Bird` but can't fly, it violates LSP. Code expecting a `Bird` to fly will break when given a `Penguin`.
 
@@ -103,7 +87,7 @@ makeBirdMove(eagle); // Works fine - different movement
 eagle.fly(); // Can call fly specifically for eagles
 ```
 
-#### "Tell, Don't Ask"
+### "Tell, Don't Ask"
 
 ```typescript
 // VIOLATES LSP:

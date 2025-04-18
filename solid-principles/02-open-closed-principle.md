@@ -1,32 +1,15 @@
 
-<div>
-<div id="icon" align="center">
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZseHp6MDVnZTRheGNndnJ4eXlmYTI0ZHhidnY0b2R4MnU1enRlbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JWy2zBSXQ55W5Jh00D/giphy.gif" width="120"/>
-</div>
+
 <div id="title" align="center">
 <a href="https://www.udemy.com/course/solid-design/">
-<img src="https://img.shields.io/badge/SOLID Principles: Introducing Software Architecture & Design-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="SOLID Principles: Introducing Software Architecture & Design" />
+<img src="https://img.shields.io/badge/SOLID_Principles:_Introducing_Software_Architecture_&amp;_Design-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="SOLID Principles: Introducing Software Architecture &amp; Design" />
 </a>
-<h1>Open Closed Principle</h1>
-</div>
-</div>
-<div align="center">
+<h1>Open-Closed Principle</h1>
 <img src="https://img.shields.io/badge/Finished-2025--02--13-white?labelColor=2A6041&color=B6EFD4" alt="Finished" />
-<br />
-<br />
+<br /><br />
 </div>
-
-## What's in my notes?
-
-- [Overview](#overview)
-	- [Key Takeaways](#key-takeaways)
-	- [SOLID Principle](#solid-principle)
-	- [Cautions](#cautions)
-	- [Example](#example)
 
 ## Overview
-
-- O in SOLID = Open Closed Principle (OCP)
 
 - Software entities (classes, modules, functions, etc.) should be _open_ for extension, but _closed_ for modification.
 
@@ -36,7 +19,7 @@
 
 - **How?** Use abstractions (interfaces, abstract classes) so new features can be added by creating _new_ classes that implement/inherit from the abstractions, _without_ altering the original code.
 
-#### Key Takeaways
+## Key Takeaways
 
 - Ease of adding new features.
 
@@ -48,7 +31,7 @@
 
 - OCP and [SRP](01-single-responsibility-principle.md) can work together to achieve a better design.
 
-#### SOLID Principle
+## SOLID Principle
 
 - SOLID principles are all intertwined and interdependent.
 
@@ -56,7 +39,7 @@
 
 - It is important to get a wholesome view of all the SOLID principles.
 
-#### Cautions
+## Cautions
 
 - Do not follow the Open Closed Principle blindly.
 
@@ -64,7 +47,7 @@
 
 - Make a subjective (opinion-based, personal), rather than an objective (fact-based, measurable, verifiable) decision.
 
-#### Example
+## Example
 
 ```typescript
 // Interface for all shapes

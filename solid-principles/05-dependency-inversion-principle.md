@@ -1,31 +1,15 @@
 
-<div>
-<div id="icon" align="center">
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZseHp6MDVnZTRheGNndnJ4eXlmYTI0ZHhidnY0b2R4MnU1enRlbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JWy2zBSXQ55W5Jh00D/giphy.gif" width="120"/>
-</div>
+
 <div id="title" align="center">
 <a href="https://www.udemy.com/course/solid-design/">
-<img src="https://img.shields.io/badge/SOLID Principles: Introducing Software Architecture & Design-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="SOLID Principles: Introducing Software Architecture & Design" />
+<img src="https://img.shields.io/badge/SOLID_Principles:_Introducing_Software_Architecture_&amp;_Design-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="SOLID Principles: Introducing Software Architecture &amp; Design" />
 </a>
 <h1>Dependency Inversion Principle</h1>
-</div>
-</div>
-<div align="center">
 <img src="https://img.shields.io/badge/Finished-2025--02--13-white?labelColor=2A6041&color=B6EFD4" alt="Finished" />
-<br />
-<br />
+<br /><br />
 </div>
-
-## What's in my notes?
-
-- [Overview](#overview)
-- [Injection vs. Inversion](#injection-vs-inversion)
-- [Dependency Injection (DI)](#dependency-injection-di)
-- [Inversion of Control (IoC)](#inversion-of-control-ioc)
 
 ## Overview
-
-- D in SOLID = Dependency Inversion Principle (DIP)
 
 - High-level modules shouldn't depend on low-level modules. Both should depend on abstractions.  
 
@@ -55,7 +39,7 @@
 
 - Instead of `Car` creating its `Engine`, you _inject_ the `Engine` into the `Car`.
 
-**Without DI:**
+### Without DI
 
 ```typescript
 class Engine {
@@ -81,7 +65,7 @@ const myCar = new Car();
 myCar.drive();
 ```
 
-**With DI:**
+### With DI
 
 ```typescript
 interface EngineInterface {

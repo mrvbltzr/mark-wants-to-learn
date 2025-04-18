@@ -1,30 +1,15 @@
 
-<div>
-<div id="icon" align="center">
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZseHp6MDVnZTRheGNndnJ4eXlmYTI0ZHhidnY0b2R4MnU1enRlbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JWy2zBSXQ55W5Jh00D/giphy.gif" width="120"/>
-</div>
+
 <div id="title" align="center">
 <a href="https://www.udemy.com/course/solid-design/">
-<img src="https://img.shields.io/badge/SOLID Principles: Introducing Software Architecture & Design-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="SOLID Principles: Introducing Software Architecture & Design" />
+<img src="https://img.shields.io/badge/SOLID_Principles:_Introducing_Software_Architecture_&amp;_Design-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="SOLID Principles: Introducing Software Architecture &amp; Design" />
 </a>
 <h1>Interface Segregation Principle</h1>
-</div>
-</div>
-<div align="center">
 <img src="https://img.shields.io/badge/Finished-2025--02--13-white?labelColor=2A6041&color=B6EFD4" alt="Finished" />
-<br />
-<br />
+<br /><br />
 </div>
-
-## What's in my notes?
-
-- [Overview](#overview)
-- [Techniques to Identify Violations of ISP](#techniques-to-identify-violations-of-isp)
-- [Example](#example)
 
 ## Overview
-
-- I in SOLID = Interface Segregation Principle (ISP)
 
 - Clients shouldn't be forced to depend on methods they don't use. (Or, many specific interfaces are better than one general interface.)
 
@@ -37,7 +22,9 @@
 ## Techniques to Identify Violations of ISP
 
 - Fat interfaces
+
 - Interfaces with low cohesion
+
 - Empty method implementations
 
 ## Example
