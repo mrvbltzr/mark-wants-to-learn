@@ -1,46 +1,13 @@
 
-<div>
-<div id="icon" align="center">
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZseHp6MDVnZTRheGNndnJ4eXlmYTI0ZHhidnY0b2R4MnU1enRlbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JWy2zBSXQ55W5Jh00D/giphy.gif" width="120"/>
-</div>
+
 <div id="title" align="center">
 <a href="https://www.udemy.com/course/software-engineering-101/">
-<img src="https://img.shields.io/badge/Software Engineering 101: Plan and Execute Better Software-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="Software Engineering 101: Plan and Execute Better Software" />
+<img src="https://img.shields.io/badge/Software_Engineering_101:_Plan_and_Execute_Better_Software-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="Software Engineering 101: Plan and Execute Better Software" />
 </a>
 <h1>Testing</h1>
-</div>
-</div>
-<div align="center">
 <img src="https://img.shields.io/badge/Finished-2025--01--25-white?labelColor=2A6041&color=B6EFD4" alt="Finished" />
-<br />
-<br />
+<br /><br />
 </div>
-
-## What's in my notes?
-
-- [Overview](#overview)
-	- [Keywords](#keywords)
-- [Testing Bugs](#testing-bugs)
-	- [Level of Bugs](#level-of-bugs)
-- [Verification vs. Validation](#verification-vs-validation)
-	- [Verification](#verification)
-	- [Validation](#validation)
-- [Types of Tests](#types-of-tests)
-	- [Unit Testing](#unit-testing)
-	- [Integration Testing](#integration-testing)
-	- [Back-to-Back Testing](#back-to-back-testing)
-	- [Incremental Testing](#incremental-testing)
-- [Who Should Test?](#who-should-test)
-	- [Developer](#developer)
-	- [Tester](#tester)
-	- [User](#user)
-- [Manual vs. Automatic](#manual-vs-automatic)
-	- [Manual Testing](#manual-testing)
-	- [Automated Testing](#automated-testing)
-- [Blackbox vs. Whitebox](#blackbox-vs-whitebox)
-	- [Blackbox Testing](#blackbox-testing)
-	- [Whitebox Testing](#whitebox-testing)
-- [Problem with Testing](#problem-with-testing)
 
 ## Overview
 
@@ -61,6 +28,7 @@
 ## Testing Bugs
 
 - Bugs can be both an error and a deviation from expected behavior.
+
 ### Level of Bugs
 
 - **Failure** - the event by which the code deviates from expected behavior..
@@ -77,12 +45,14 @@ Testing can be used to show presence of bugs, but never to insure the absence of
 
 ### Verification
 
-- Are we building the ***thing right***?
+- Are we building the _**thing right**_?
+
 - Does the software work compared to the given specifications?
 
 ### Validation
 
-- Are we building the ***right thing***?
+- Are we building the _**right thing**_?
+
 - Does the software work compared to what the user needs?
 
 [More Information](https://www.plutora.com/blog/verification-vs-validation)
@@ -127,9 +97,9 @@ Testing can be used to show presence of bugs, but never to insure the absence of
 
 - **Types of Incremental Testing:**
 
-	- **Top-Down:** Start testing from the highest-level components (e.g., the main program). Use "stubs" (simplified versions of lower-level components) to simulate their behavior during testing.
+    - **Top-Down:** Start testing from the highest-level components (e.g., the main program). Use "stubs" (simplified versions of lower-level components) to simulate their behavior during testing.
 
-	- **Bottom-Up:** Start testing from the lowest-level components (e.g., individual functions). Use "drivers" (small programs) to provide input to and receive output from these components.
+    - **Bottom-Up:** Start testing from the lowest-level components (e.g., individual functions). Use "drivers" (small programs) to provide input to and receive output from these components.
 
 - [**Incremental Testing**](https://www.tutorialspoint.com/software_testing_dictionary/incremental_testing.htm)
 
@@ -148,20 +118,27 @@ Testing can be used to show presence of bugs, but never to insure the absence of
 ### Developer
 
 - Understand the system
+
 - Knows the code which cause problems
+
 - Know how to do technical tests
+
 - May treat the testing lightly
 
 ### Tester
 
 - Must learn the system
+
 - Tries to test everything
+
 - Will try to break the program at all costs
 
 ### User
 
 - Must learn the system
+
 - Knows how they will use the system
+
 - Won't try to break or go light; will try to use
 
 ## Manual vs. Automatic

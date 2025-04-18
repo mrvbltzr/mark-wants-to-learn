@@ -1,28 +1,13 @@
 
-<div>
-<div id="icon" align="center">
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZseHp6MDVnZTRheGNndnJ4eXlmYTI0ZHhidnY0b2R4MnU1enRlbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JWy2zBSXQ55W5Jh00D/giphy.gif" width="120"/>
-</div>
+
 <div id="title" align="center">
 <a href="https://www.udemy.com/course/software-engineering-101/">
-<img src="https://img.shields.io/badge/Software Engineering 101: Plan and Execute Better Software-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="Software Engineering 101: Plan and Execute Better Software" />
+<img src="https://img.shields.io/badge/Software_Engineering_101:_Plan_and_Execute_Better_Software-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="Software Engineering 101: Plan and Execute Better Software" />
 </a>
 <h1>Implementation and Deployment</h1>
-</div>
-</div>
-<div align="center">
 <img src="https://img.shields.io/badge/Finished-2025--01--25-white?labelColor=2A6041&color=B6EFD4" alt="Finished" />
-<br />
-<br />
+<br /><br />
 </div>
-
-## What's in my notes?
-
-- [Implementation](#implementation)
-- [Buy vs. Build](#buy-vs-build)
-- [Deployment](#deployment)
-- [Deployment Planning](#deployment-planning)
-- [Deployment Rollback](#deployment-rollback)
 
 ## Implementation
 
@@ -32,7 +17,7 @@
 
 - Always program while alert and focused.
 
-	- 35 hours of programming can be just as productive as 70. (with technical debt).
+    - 35 hours of programming can be just as productive as 70. (with technical debt).
 
 - Programming takes focus. Constant interruptions will reduce the overall focus.
 
@@ -44,7 +29,7 @@
 
 - Make modules easy to learn and understand.
 
-- Shorter code != better code - **Make it READABLE.**
+- Shorter code!= better code - **Make it READABLE.**
 
 - Break up action into methods.
 
@@ -64,13 +49,13 @@ It's almost always a win-win situation to purchase instead of build. Coding how
 
 - Deployment is a mix between testing and implementation.
 
-	- It happens after testing, but a lot of times requires certain implementation to get correct.
+    - It happens after testing, but a lot of times requires certain implementation to get correct.
 
 - We are not talking beta deployment, but final deployment
 
 - The level of planning in this phase, directly relates to how the deployment effects the overall project.
 
-	- Is it a small update, a large update, a complete overhaul?
+    - Is it a small update, a large update, a complete overhaul?
 
 - Deployment should be built with the idea of retreat. If something goes wrong, how can we revert?
 
@@ -82,22 +67,30 @@ It's almost always a win-win situation to purchase instead of build. Coding how
 
 - Areas to look at:
 
-	- Database Activities
-	- 3rd-party Software Integration
-	- Runtime Changes
-	- Training (both on user and business side)
-	- Downtime
-	- Backups
-	- Network
-	- Memory
+    - Database Activities
+
+    - 3rd-party Software Integration
+
+    - Runtime Changes
+
+    - Training (both on user and business side)
+
+    - Downtime
+
+    - Backups
+
+    - Network
+
+    - Memory
 
 ## Deployment Rollback
 
-- **Rollback** : the act of reverting a system back to a previous working state.
+- **Rollback**: the act of reverting a system back to a previous working state.
 
 - Look of a point of no return:
 
-	- This is a point where it takes longer to go back, that it does to just continue through.
-	- Knowing this will help make a decision during deployment.
+    - This is a point where it takes longer to go back, that it does to just continue through.
+
+    - Knowing this will help make a decision during deployment.
 
 - Every step of the deployment process, make a decision whether rollback is a better option.

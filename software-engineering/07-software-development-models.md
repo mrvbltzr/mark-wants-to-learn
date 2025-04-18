@@ -1,48 +1,30 @@
 
-<div>
-<div id="icon" align="center">
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZseHp6MDVnZTRheGNndnJ4eXlmYTI0ZHhidnY0b2R4MnU1enRlbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JWy2zBSXQ55W5Jh00D/giphy.gif" width="120"/>
-</div>
+
 <div id="title" align="center">
 <a href="https://www.udemy.com/course/software-engineering-101/">
-<img src="https://img.shields.io/badge/Software Engineering 101: Plan and Execute Better Software-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="Software Engineering 101: Plan and Execute Better Software" />
+<img src="https://img.shields.io/badge/Software_Engineering_101:_Plan_and_Execute_Better_Software-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="Software Engineering 101: Plan and Execute Better Software" />
 </a>
 <h1>Software Development Models</h1>
-</div>
-</div>
-<div align="center">
 <img src="https://img.shields.io/badge/Finished-2025--01--25-white?labelColor=2A6041&color=B6EFD4" alt="Finished" />
-<br />
-<br />
+<br /><br />
 </div>
-
-## What's in my notes?
-
-- [Overview](#overview)
-- [Waterfall Model](#waterfall-model)
-- [V-Model](#v-model)
-- [Sashimi Model](#sashimi-model)
-- [Iterative vs Incremental](#iterative-vs-incremental)
-- [Unified Process Framework](#unified-process-framework)
-	- [Inception](#inception)
-	- [Elaboration](#elaboration)
-	- [Construction](#construction)
-	- [Transition](#transition)
-- [Spiral Model](#spiral-model)
-- [Resources and Links](#resources-and-links)
 
 ## Overview
 
-**Linear/*Predictive***
+**Linear/_Predictive_**
 
 - Project has been done before
+
 - A clear process is in place
+
 - Not much room for change
 
-**Flexible/*Adaptive***
+**Flexible/_Adaptive_**
 
 - Project is a new idea
+
 - No clear process in place
+
 - Project is very likely to change overtime
 
 ## Waterfall Model
@@ -174,7 +156,9 @@ This analogy helps illustrate the key difference between the rigid Waterfall mod
 ### Inception
 
 - Determine feasibility of project
+
 - Look at potential project schedule and cost
+
 - Decide to buy or build
 
 - **Deliverable:** Lifecycle goals
@@ -182,9 +166,13 @@ This analogy helps illustrate the key difference between the rigid Waterfall mod
 ### Elaboration
 
 - Capture the requirements
+
 - Address known risk factors
+
 - Verify and validate the system architecture
+
 - Use Case Diagrams, Class Diagrams and Architecture Diagrams
+
 - Very core prototype code for testing
 
 - **Deliverable:** System Architecture Plans and Prototype
@@ -192,8 +180,11 @@ This analogy helps illustrate the key difference between the rigid Waterfall mod
 ### Construction
 
 - Largest and longest phase of the project
+
 - System is built on the foundation lay-out by Elaboration
+
 - Features are implemented in short time-boxed iterations
+
 - Each iteration delivers a workable release of the software
 
 - **Deliverable:** Continual stream of improving software
@@ -201,6 +192,7 @@ This analogy helps illustrate the key difference between the rigid Waterfall mod
 ### Transition
 
 - System is deployed to target users
+
 - Feedback is received, refinements are made
 
 - **Deliverable:** Final Product
@@ -210,14 +202,19 @@ This analogy helps illustrate the key difference between the rigid Waterfall mod
 **Pros:**
 
 - Adaptive
+
 - Quality and re-use focused
+
 - Focused on risk management
+
 - Flexible to incorporate other models
 
 **Cons:**
 
 - Complicated
+
 - Too much overhead for small-scale projects
+
 - Need more programmers, managers, testers, etc.
 
 ## Spiral Model
@@ -249,13 +246,17 @@ The **Spiral Model** is like a controlled experiment, where you learn and improv
 **Pros:**
 
 - Very adaptive
+
 - Very risk-focused
+
 - Options for go/no-go
 
 **Cons:**
 
 - Complicated
+
 - Cost more to manage
+
 - Needs constant stakeholder engagement
 
 ![Spiral](https://blog.airbrake.io/hubfs/Imported_Blog_Media/Screen-Shot-2016-09-29-at-7_56_49-AM.png)

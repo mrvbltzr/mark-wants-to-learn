@@ -1,55 +1,39 @@
 
-<div>
-<div id="icon" align="center">
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZseHp6MDVnZTRheGNndnJ4eXlmYTI0ZHhidnY0b2R4MnU1enRlbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JWy2zBSXQ55W5Jh00D/giphy.gif" width="120"/>
-</div>
+
 <div id="title" align="center">
 <a href="https://www.udemy.com/course/software-engineering-101/">
-<img src="https://img.shields.io/badge/Software Engineering 101: Plan and Execute Better Software-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="Software Engineering 101: Plan and Execute Better Software" />
+<img src="https://img.shields.io/badge/Software_Engineering_101:_Plan_and_Execute_Better_Software-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="Software Engineering 101: Plan and Execute Better Software" />
 </a>
 <h1>Design Architecture</h1>
-</div>
-</div>
-<div align="center">
 <img src="https://img.shields.io/badge/Finished-2025--01--25-white?labelColor=2A6041&color=B6EFD4" alt="Finished" />
-<br />
-<br />
+<br /><br />
 </div>
-
-## What's in my notes?
-
-- [Overview](#overview)
-- [Pipe-and-Filter Pattern](#pipe-and-filter-pattern)
-- [Client-Server Pattern](#client-server-pattern)
-	- [Clients](#clients)
-	- [Server](#server)
-- [Master-Slave Pattern](#master-slave-pattern)
-	- [Master](#master)
-	- [Slaves](#slaves)
-- [Layered Pattern](#layered-pattern)
-- [Software Architecture Process](#software-architecture-process)
-- [Conclusion (from the course)](#conclusion-from-the-course)
 
 ## Overview
 
 - Architecture is the very top level of design.
+
 - Architects are the link between idea and reality.
+
 - Architecture is something that cannot be fixed once implemented.
 
-In software, **bad architecture is something that can't be fixed with good programming.**
+- In software, **bad architecture is something that can't be fixed with good programming.**
 
-Imagine trying to fix the fountain of a skyscraper after it was already 20 stories high.
+    - Imagine trying to fix the fountain of a skyscraper after it was already 20 stories high.
 
-Software architecture is all about breaking up larger system into smaller focused system.
+- Software architecture is all about breaking up larger system into smaller focused system.
 
-- Good architecture is hard.
-- Maintainable software has good architecture.
-- Architecture mistakes are almost impossible to fix once coding has begun.
+    - Good architecture is hard.
 
-Good architecture allows for faster development and smarter task allocation.
+    - Maintainable software has good architecture.
 
-- Also allows company to decide where to buy and where to build.
-- Reduce overall idle time.
+    - Architecture mistakes are almost impossible to fix once coding has begun.
+
+- Good architecture allows for faster development and smarter task allocation.
+
+    - Also allows company to decide where to buy and where to build.
+
+    - Reduce overall idle time.
 
 ## Pipe-and-Filter Pattern
 
@@ -61,48 +45,57 @@ Good architecture allows for faster development and smarter task allocation.
 
 ## Client-Server Pattern
 
-A distributed architecture where clients request services from a central server.
+- A distributed architecture where clients request services from a central server.
 
-Clients ask for things, the server fulfills those requests.
+- Clients ask for things, the server fulfills those requests.
 
 ### Clients
 
 - Request services (e.g., data, processing)
+
 - Have limited processing power
+
 - Examples: web browsers, mobile apps, workstations
 
 ### Server
 
 - Provides services to clients
+
 - Manages resources (data, hardware)
+
 - Handles requests, processes data, and sends responses
+
 - Examples: web servers, database servers, file servers
 
 ![Client-Server Pattern](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSshxWqTg4pm7ZWfex5OhGtt9qMYAuMPhmGiw&s)
 
 ## Master-Slave Pattern
 
-A design pattern where one component (master) controls and distributes tasks to multiple other components (slaves).
+- A design pattern where one component (master) controls and distributes tasks to multiple other components (slaves).
 
 ### Master
 
 - Coordinates and manages the overall system.
+
 - Assigns tasks to slaves.
+
 - Collects results from slaves.
 
 ### Slaves
 
 - Perform specific tasks assigned by the master.
+
 - Operate independently.
+
 - Report results back to the master.
 
 ![Master-Slave Pattern](https://www.oreilly.com/api/v2/epubs/9781787287495/files/assets/b35851ef-fe49-498a-8de9-a79828a7074a.png)
 
 ## Layered Pattern
 
-Organizes software into distinct horizontal layers, each with specific responsibilities.
+- Organizes software into distinct horizontal layers, each with specific responsibilities.
 
-Layered Architecture is like an organizational chart for our software, dividing it into clear levels of responsibility to improve structure and maintainability.
+- **Layered Architecture** is like an organizational chart for our software, dividing it into clear levels of responsibility to improve structure and maintainability.
 
 ![Layered Pattern](https://www.oreilly.com/api/v2/epubs/9781491971437/files/assets/sapr_0101.png)
 
@@ -114,23 +107,23 @@ Layered Architecture is like an organizational chart for our software, dividing 
 
 - Break project into **subsystems** and **modules**:
 
-	- **Subsystem**
+### Subsystem
 
-		- Independent system which holds independent value.
+- Independent system which holds independent value.
 
-		- A group of modules working together to achieve a larger goal within the software.
+- A group of modules working together to achieve a larger goal within the software.
 
-		- Think of a bigger Lego structure, like a car. It's made up of many Lego bricks (modules) working together (wheels, engine, body).
+- Think of a bigger Lego structure, like a car. It's made up of many Lego bricks (modules) working together (wheels, engine, body).
 
-	- **Module**
+### Module
 
-		- Component of a subsystem which cannot function as a standalone.
+- Component of a subsystem which cannot function as a standalone.
 
-		- A small, independent part of the software with a specific job.
+- A small, independent part of the software with a specific job.
 
-		- Imagine a Lego brick. It's a small, self-contained piece with a specific function (like a wheel or a window).
+- Imagine a Lego brick. It's a small, self-contained piece with a specific function (like a wheel or a window).
 
-## Conclusion (from the course)
+## Conclusion
 
 There is no one size fits all plan when it comes to software development. The process must be taken on a case to case basis. Us, as engineers, seek to find the best pattern or set of patterns which solve the problem.
 

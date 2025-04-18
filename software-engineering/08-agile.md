@@ -1,30 +1,13 @@
 
-<div>
-<div id="icon" align="center">
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZseHp6MDVnZTRheGNndnJ4eXlmYTI0ZHhidnY0b2R4MnU1enRlbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JWy2zBSXQ55W5Jh00D/giphy.gif" width="120"/>
-</div>
+
 <div id="title" align="center">
 <a href="https://www.udemy.com/course/software-engineering-101/">
-<img src="https://img.shields.io/badge/Software Engineering 101: Plan and Execute Better Software-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="Software Engineering 101: Plan and Execute Better Software" />
+<img src="https://img.shields.io/badge/Software_Engineering_101:_Plan_and_Execute_Better_Software-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="Software Engineering 101: Plan and Execute Better Software" />
 </a>
 <h1>Agile</h1>
-</div>
-</div>
-<div align="center">
 <img src="https://img.shields.io/badge/Finished-2025--01--25-white?labelColor=2A6041&color=B6EFD4" alt="Finished" />
-<br />
-<br />
+<br /><br />
 </div>
-
-## What's in my notes?
-
-- [Overview](#overview)
-- [Agile Manifesto](#agile-manifesto)
-- [Scrum](#scrum)
-- [Kanban](#kanban)
-	- [Kanban Principles](#kanban-principles)
-	- [Kanban Properties](#kanban-properties)
-- [Lean Startup](#lean-startup)
 
 ## Overview
 
@@ -82,11 +65,11 @@ In essence, Agile prioritizes **people, collaboration, and delivering value** ov
 
     1. **Planning:** Determine the Sprint Goal and plan the work to be done.
 
-	1. **Daily Scrum:** Brief daily meeting to discuss progress, roadblocks, and plan for the day ahead.
+	1. 2. aily Scrum:** Brief daily meeting to discuss progress, roadblocks, and plan for the day ahead.
 
-	2. **Sprint Review:** At the end of the Sprint, demonstrate the completed work to stakeholders and gather feedback.
+	2. 3. print Review:** At the end of the Sprint, demonstrate the completed work to stakeholders and gather feedback.
 
-	3. **Sprint Retrospective:** The team reflects on the Sprint, identifies areas for improvement, and adjusts their process accordingly.
+	3. 4. print Retrospective:** The team reflects on the Sprint, identifies areas for improvement, and adjusts their process accordingly.
 
 **In essence:** Scrum focuses on iterative development, collaboration, and continuous improvement to deliver value quickly and effectively.
 
@@ -98,7 +81,7 @@ Kanban is a visual system for managing work.
 
 | <center>Backlog</center> | <center>Analyze</center> | <center>Develop</center> | <center>Test</center> | <center>Release</center> |
 | ------------------------ | ------------------------ | ------------------------ | --------------------- | ------------------------ |
-| -                        | -                        | -                        | -                     | -                        |
+|                          |                          |                          |                       |                          |
 
 - **Work items (tasks) are represented as cards:** These cards move across the board as work progresses.
 

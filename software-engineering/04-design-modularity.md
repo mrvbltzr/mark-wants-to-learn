@@ -1,38 +1,13 @@
 
-<div>
-<div id="icon" align="center">
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZseHp6MDVnZTRheGNndnJ4eXlmYTI0ZHhidnY0b2R4MnU1enRlbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JWy2zBSXQ55W5Jh00D/giphy.gif" width="120"/>
-</div>
+
 <div id="title" align="center">
 <a href="https://www.udemy.com/course/software-engineering-101/">
-<img src="https://img.shields.io/badge/Software Engineering 101: Plan and Execute Better Software-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="Software Engineering 101: Plan and Execute Better Software" />
+<img src="https://img.shields.io/badge/Software_Engineering_101:_Plan_and_Execute_Better_Software-white?logo=udemy&style=for-the-badge&color=D2CBCB" alt="Software Engineering 101: Plan and Execute Better Software" />
 </a>
 <h1>Design Modularity</h1>
-</div>
-</div>
-<div align="center">
 <img src="https://img.shields.io/badge/Finished-2025--01--25-white?labelColor=2A6041&color=B6EFD4" alt="Finished" />
-<br />
-<br />
+<br /><br />
 </div>
-
-## What's in my notes?
-
-- [Software Design](#software-design)
-	- [Stages of Software Design](#stages-of-software-design)
-- [Modularity](#modularity)
-	- [Goal of Modularity](#goal-of-modularity)
-	- [Abstraction](#abstraction)
-- [Coupling](#coupling)
-	- [Module Coupling Levels](#module-coupling-levels)
-		- [Tight (Bad)](#tight-bad)
-		- [Medium (Needs Improvement)](#medium-needs-improvement)
-		- [Loose (Good)](#loose-good)
-- [Cohesion](#cohesion)
-	- [Types of Cohesion](#types-of-cohesion)
-		- [Weak Cohesion](#weak-cohesion)
-		- [Medium Cohesion](#medium-cohesion)
-		- [Strong Cohesion](#strong-cohesion)
 
 ## Software Design
 
@@ -42,8 +17,9 @@
 
 - Design is two things:
 
-	- **Activity** : working to design the software.
-	- **Product** : a document, or set of documents detailing the design of the software.
+    - **Activity**: working to design the software.
+
+    - **Product**: a document, or set of documents detailing the design of the software.
 
 ### Stages of Software Design
 
@@ -61,11 +37,13 @@
 ## Modularity
 
 - **Coupling:** how well modules work together.
+
 - **Cohesion:** how well a module meets a singly designed goal.
 
 Imagine you have a bunch of toys:
 
 - **Coupling** is like how well your toys play together.
+
 - **Cohesion** is like how well each toy does its own job.
 
 ### Goal of Modularity
@@ -83,19 +61,26 @@ Imagine you have a bunch of toys:
 
 - **Information Hiding:** Concealing complexity within a "black box." Examples:
 
-	- Functions
-	- Macros
-	- Libraries
-	- Classes
-	- Methods
+    - Functions
+
+    - Macros
+
+    - Libraries
+
+    - Classes
+
+    - Methods
 
 - **Data Encapsulation:** Hiding implementation details from the user, providing only a set of tools (methods/functions) to manipulate the data.
 
 ## Coupling
 
 - Measuring the strength of connections between modules/subsystems.
+
 - Want to make it so changes don't affect other modules.
+
 - Shared variables and control information creates tight coupling.
+
 - State-decentralization creates loose coupling.
 
 ### Module Coupling Levels
@@ -132,7 +117,9 @@ Minimal dependencies, ideal.
 ## Cohesion
 
 - A module's ability to work toward a set and well-defined purpose.
+
 - The stronger the cohesion the better.
+
 - We want **strong cohesion** and **loose coupling**.
 
 Cohesion is the other area to focus on when we are talking about modularity. Cohesion is the measurement of how focused our module is on a single task. The more focused the module, the higher the cohesion.
